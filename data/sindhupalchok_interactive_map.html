@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94c31f4913dfd53100036e2ed83052bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94c31f4913dfd53100036e2ed83052bf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94c31f4913dfd53100036e2ed83052bf = L.map(
+                "map_94c31f4913dfd53100036e2ed83052bf",
+                {
+                    center: [27.79363534255319, 85.69830301595744],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d10dd17a2e928152426b0b989ec2678 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6d10dd17a2e928152426b0b989ec2678.addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var marker_33054c9fdd99877c6d98f9bf9ceafbc6 = L.marker(
+                [27.85551710714286, 85.56475796428572],
+                {
+}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var icon_2cbcde70dbc713ad4f7a7740d4ed7197 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_962b67f452adb419fe5182e6d311530a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddb7a464987118f2530d3f1fc8000122 = $(`<div id="html_ddb7a464987118f2530d3f1fc8000122" style="width: 100.0%; height: 100.0%;"><b>DRONE HUB 0</b><br>Elevation: 1427m</div>`)[0];
+                popup_962b67f452adb419fe5182e6d311530a.setContent(html_ddb7a464987118f2530d3f1fc8000122);
+            
+        
+
+        marker_33054c9fdd99877c6d98f9bf9ceafbc6.bindPopup(popup_962b67f452adb419fe5182e6d311530a)
+        ;
+
+        
+    
+    
+                marker_33054c9fdd99877c6d98f9bf9ceafbc6.setIcon(icon_2cbcde70dbc713ad4f7a7740d4ed7197);
+            
+    
+            var marker_1b087972ae84b47b003d471f7349beff = L.marker(
+                [27.765707503703705, 85.72119095925926],
+                {
+}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var icon_f6e6f277844d62526e5c00754c029e46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5bbb00340efd44226f8b4096d939c47e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cc7311b3e952928562ba0759a1e3c8d = $(`<div id="html_2cc7311b3e952928562ba0759a1e3c8d" style="width: 100.0%; height: 100.0%;"><b>DRONE HUB 1</b><br>Elevation: 1378m</div>`)[0];
+                popup_5bbb00340efd44226f8b4096d939c47e.setContent(html_2cc7311b3e952928562ba0759a1e3c8d);
+            
+        
+
+        marker_1b087972ae84b47b003d471f7349beff.bindPopup(popup_5bbb00340efd44226f8b4096d939c47e)
+        ;
+
+        
+    
+    
+                marker_1b087972ae84b47b003d471f7349beff.setIcon(icon_f6e6f277844d62526e5c00754c029e46);
+            
+    
+            var marker_3f5854c733a3978e4676b82e4b47e5d5 = L.marker(
+                [27.774919833333335, 85.90691239166667],
+                {
+}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var icon_92f07c1ad82b24e326c67e1a4cd37e2e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10e8729bf845ee36e824e3ca7a2621d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7d8f177c9b86998c7f8cd5b5c00671d = $(`<div id="html_d7d8f177c9b86998c7f8cd5b5c00671d" style="width: 100.0%; height: 100.0%;"><b>DRONE HUB 2</b><br>Elevation: 1096m</div>`)[0];
+                popup_10e8729bf845ee36e824e3ca7a2621d8.setContent(html_d7d8f177c9b86998c7f8cd5b5c00671d);
+            
+        
+
+        marker_3f5854c733a3978e4676b82e4b47e5d5.bindPopup(popup_10e8729bf845ee36e824e3ca7a2621d8)
+        ;
+
+        
+    
+    
+                marker_3f5854c733a3978e4676b82e4b47e5d5.setIcon(icon_92f07c1ad82b24e326c67e1a4cd37e2e);
+            
+    
+            var circle_marker_9178e2ff8f2a377dcf326f33dfa8e3c8 = L.circleMarker(
+                [27.7964923, 85.9092499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_091b15a63c970211021a5a390c715e57 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d7ea69f1dace95f8793cafa02a973622 = $(`<div id="html_d7ea69f1dace95f8793cafa02a973622" style="width: 100.0%; height: 100.0%;">     <b>Bahrabise SHP</b><br>     Type: hospital<br>     Elevation: 1299m<br>     Distance to Hub: 2.42 km     </div>`)[0];
+                popup_091b15a63c970211021a5a390c715e57.setContent(html_d7ea69f1dace95f8793cafa02a973622);
+            
+        
+
+        circle_marker_9178e2ff8f2a377dcf326f33dfa8e3c8.bindPopup(popup_091b15a63c970211021a5a390c715e57)
+        ;
+
+        
+    
+    
+            var poly_line_46e38dfbe6ac15d56ce9a9b91cc20608 = L.polyline(
+                [[27.7964923, 85.9092499], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_2d1f5fac3b7382e7dd6fb2fabc5d98bd = L.circleMarker(
+                [27.8684531, 85.6161532],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_1bcf48d318af2ddaf92bcd8727840e11 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8109fc4dec4a52d5d5d3e30a002f8934 = $(`<div id="html_8109fc4dec4a52d5d5d3e30a002f8934" style="width: 100.0%; height: 100.0%;">     <b>Lagarche Health Post</b><br>     Type: hospital<br>     Elevation: 1402m<br>     Distance to Hub: 5.25 km     </div>`)[0];
+                popup_1bcf48d318af2ddaf92bcd8727840e11.setContent(html_8109fc4dec4a52d5d5d3e30a002f8934);
+            
+        
+
+        circle_marker_2d1f5fac3b7382e7dd6fb2fabc5d98bd.bindPopup(popup_1bcf48d318af2ddaf92bcd8727840e11)
+        ;
+
+        
+    
+    
+            var poly_line_04a3fe3aed6d38da0b7116422a3107f2 = L.polyline(
+                [[27.8684531, 85.6161532], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_97f8b9b962a5fd50e3432bfb641d69da = L.circleMarker(
+                [27.9375931, 85.6519501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_4c50f8a8489acc29256c60b0d29bee80 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_96384d67aa20995c02ea92090dd83282 = $(`<div id="html_96384d67aa20995c02ea92090dd83282" style="width: 100.0%; height: 100.0%;">     <b>Dhulikhel Hospital Outreach Centre, Manekharka</b><br>     Type: hospital<br>     Elevation: 1810m<br>     Distance to Hub: 12.52 km     </div>`)[0];
+                popup_4c50f8a8489acc29256c60b0d29bee80.setContent(html_96384d67aa20995c02ea92090dd83282);
+            
+        
+
+        circle_marker_97f8b9b962a5fd50e3432bfb641d69da.bindPopup(popup_4c50f8a8489acc29256c60b0d29bee80)
+        ;
+
+        
+    
+    
+            var poly_line_5fe0f4b8fdc386a490be6702d4314366 = L.polyline(
+                [[27.9375931, 85.6519501], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_ee1c1036f9ec456f9bad9c6b404be331 = L.circleMarker(
+                [27.7689843, 85.9543414],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_3484fd7abf9a92fc3f4ad888682a3382 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a978bb470be07f0d6ddc6446f756accc = $(`<div id="html_a978bb470be07f0d6ddc6446f756accc" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     Type: hospital<br>     Elevation: 1608m<br>     Distance to Hub: 4.74 km     </div>`)[0];
+                popup_3484fd7abf9a92fc3f4ad888682a3382.setContent(html_a978bb470be07f0d6ddc6446f756accc);
+            
+        
+
+        circle_marker_ee1c1036f9ec456f9bad9c6b404be331.bindPopup(popup_3484fd7abf9a92fc3f4ad888682a3382)
+        ;
+
+        
+    
+    
+            var poly_line_8fe770df516706cc26208fa814fb911e = L.polyline(
+                [[27.7689843, 85.9543414], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_e7dc2b703f65fe48c78c07de2b96a1af = L.circleMarker(
+                [28.018491, 85.525661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_41c74b5655fb76a3731a3cde909061ef = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6fefbb94262f2cebf0ae79e753f95188 = $(`<div id="html_6fefbb94262f2cebf0ae79e753f95188" style="width: 100.0%; height: 100.0%;">     <b>Dhingha Rangjen Community Health Service Center</b><br>     Type: clinic<br>     Elevation: 2515m<br>     Distance to Hub: 18.56 km     </div>`)[0];
+                popup_41c74b5655fb76a3731a3cde909061ef.setContent(html_6fefbb94262f2cebf0ae79e753f95188);
+            
+        
+
+        circle_marker_e7dc2b703f65fe48c78c07de2b96a1af.bindPopup(popup_41c74b5655fb76a3731a3cde909061ef)
+        ;
+
+        
+    
+    
+            var poly_line_fb5714d7046f4b1dfdf866e5ab5b3f69 = L.polyline(
+                [[28.018491, 85.525661], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_43a395c1f1f3e1267b04acacf97c0c93 = L.circleMarker(
+                [27.7723879, 85.9559969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_6003c2b8c6b604cc2889a1db9f0070a7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9c7a99897ae1736d087a19edb8f02c7d = $(`<div id="html_9c7a99897ae1736d087a19edb8f02c7d" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     Type: hospital<br>     Elevation: 1651m<br>     Distance to Hub: 4.87 km     </div>`)[0];
+                popup_6003c2b8c6b604cc2889a1db9f0070a7.setContent(html_9c7a99897ae1736d087a19edb8f02c7d);
+            
+        
+
+        circle_marker_43a395c1f1f3e1267b04acacf97c0c93.bindPopup(popup_6003c2b8c6b604cc2889a1db9f0070a7)
+        ;
+
+        
+    
+    
+            var poly_line_44cf5c8c100acfef63219d3574b32cc5 = L.polyline(
+                [[27.7723879, 85.9559969], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_242fbccd76232a91bfe3b277d2e46606 = L.circleMarker(
+                [27.767616, 85.8939316],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_acf65859c633b1238b0ae0a6dc3a2758 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c5e342ead691b86ff03fbb513799627c = $(`<div id="html_c5e342ead691b86ff03fbb513799627c" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     Type: clinic<br>     Elevation: 1187m<br>     Distance to Hub: 1.52 km     </div>`)[0];
+                popup_acf65859c633b1238b0ae0a6dc3a2758.setContent(html_c5e342ead691b86ff03fbb513799627c);
+            
+        
+
+        circle_marker_242fbccd76232a91bfe3b277d2e46606.bindPopup(popup_acf65859c633b1238b0ae0a6dc3a2758)
+        ;
+
+        
+    
+    
+            var poly_line_9eabc592c587f2379083c1d0891f30de = L.polyline(
+                [[27.767616, 85.8939316], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_0d9b9f9cd18f4c7d9711bf8e57bed429 = L.circleMarker(
+                [28.018594, 85.786819],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_ed9cbe5b31b1d3992369fdfcc1c2d66a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ace7d1c98f8c7c6b756a84fc5c37b7de = $(`<div id="html_ace7d1c98f8c7c6b756a84fc5c37b7de" style="width: 100.0%; height: 100.0%;">     <b>स्वास्थ्य चौकी</b><br>     Type: hospital<br>     Elevation: 2266m<br>     Distance to Hub: 28.86 km     </div>`)[0];
+                popup_ed9cbe5b31b1d3992369fdfcc1c2d66a.setContent(html_ace7d1c98f8c7c6b756a84fc5c37b7de);
+            
+        
+
+        circle_marker_0d9b9f9cd18f4c7d9711bf8e57bed429.bindPopup(popup_ed9cbe5b31b1d3992369fdfcc1c2d66a)
+        ;
+
+        
+    
+    
+            var poly_line_52ad751affea703cd964f107a1145ce1 = L.polyline(
+                [[28.018594, 85.786819], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_aec92944199aa31ce81f161efad35842 = L.circleMarker(
+                [27.7540758, 85.8296282],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_bb351de09e63a89f033fb6c026506988 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ad530d9cd7fcf1551eb76c8706e16b54 = $(`<div id="html_ad530d9cd7fcf1551eb76c8706e16b54" style="width: 100.0%; height: 100.0%;">     <b>nan</b><br>     Type: hospital<br>     Elevation: 738m<br>     Distance to Hub: 7.96 km     </div>`)[0];
+                popup_bb351de09e63a89f033fb6c026506988.setContent(html_ad530d9cd7fcf1551eb76c8706e16b54);
+            
+        
+
+        circle_marker_aec92944199aa31ce81f161efad35842.bindPopup(popup_bb351de09e63a89f033fb6c026506988)
+        ;
+
+        
+    
+    
+            var poly_line_c811e41607e2e369707262fc80d345aa = L.polyline(
+                [[27.7540758, 85.8296282], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_c22f9d532f317fca8b8a983aff95f39c = L.circleMarker(
+                [27.7889332, 85.5703327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_7004672e116c5e9fb3da3aad31f45ca2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fa0f24310b790e32a93355758ff87022 = $(`<div id="html_fa0f24310b790e32a93355758ff87022" style="width: 100.0%; height: 100.0%;">     <b>Bahunepati  health Centre</b><br>     Type: clinic<br>     Elevation: 780m<br>     Distance to Hub: 7.45 km     </div>`)[0];
+                popup_7004672e116c5e9fb3da3aad31f45ca2.setContent(html_fa0f24310b790e32a93355758ff87022);
+            
+        
+
+        circle_marker_c22f9d532f317fca8b8a983aff95f39c.bindPopup(popup_7004672e116c5e9fb3da3aad31f45ca2)
+        ;
+
+        
+    
+    
+            var poly_line_986cdcf985c8f2f359ecc8d1cc115393 = L.polyline(
+                [[27.7889332, 85.5703327], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_de87c5745cc37c1b71070851e14c54f9 = L.circleMarker(
+                [27.7908715, 85.5014537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_823c4d1f18b90ba05c90d7bd979435d2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9361fcbc6a4a9c6584a5b1df397ac77e = $(`<div id="html_9361fcbc6a4a9c6584a5b1df397ac77e" style="width: 100.0%; height: 100.0%;">     <b>Gramid samudayek swasthe kendra</b><br>     Type: clinic<br>     Elevation: 1714m<br>     Distance to Hub: 9.51 km     </div>`)[0];
+                popup_823c4d1f18b90ba05c90d7bd979435d2.setContent(html_9361fcbc6a4a9c6584a5b1df397ac77e);
+            
+        
+
+        circle_marker_de87c5745cc37c1b71070851e14c54f9.bindPopup(popup_823c4d1f18b90ba05c90d7bd979435d2)
+        ;
+
+        
+    
+    
+            var poly_line_986531d7bad5141e4ad4d09b07c08b48 = L.polyline(
+                [[27.7908715, 85.5014537], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_35aee461f1e73a855bf5724a52031d97 = L.circleMarker(
+                [27.8157312, 85.5170881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_af19696cfdc0a7c58a2777c930a6167d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_64bd336e5f2a6f0f6a85b6df7ce0d697 = $(`<div id="html_64bd336e5f2a6f0f6a85b6df7ce0d697" style="width: 100.0%; height: 100.0%;">     <b>Sindhukot swasthe chauki</b><br>     Type: clinic<br>     Elevation: 1350m<br>     Distance to Hub: 6.45 km     </div>`)[0];
+                popup_af19696cfdc0a7c58a2777c930a6167d.setContent(html_64bd336e5f2a6f0f6a85b6df7ce0d697);
+            
+        
+
+        circle_marker_35aee461f1e73a855bf5724a52031d97.bindPopup(popup_af19696cfdc0a7c58a2777c930a6167d)
+        ;
+
+        
+    
+    
+            var poly_line_27b55f765aea1b9daa26035be7d59c8f = L.polyline(
+                [[27.8157312, 85.5170881], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_09cd82eb5ea2eb8da31a4ba2a4feb2c8 = L.circleMarker(
+                [27.8331436, 85.5503312],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_ea9a905a15a356bd320ae0fd861a4ebe = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4fa4af6b05f6605679e7eba08397737d = $(`<div id="html_4fa4af6b05f6605679e7eba08397737d" style="width: 100.0%; height: 100.0%;">     <b>Katunge sahari swasthe</b><br>     Type: clinic<br>     Elevation: 1349m<br>     Distance to Hub: 2.86 km     </div>`)[0];
+                popup_ea9a905a15a356bd320ae0fd861a4ebe.setContent(html_4fa4af6b05f6605679e7eba08397737d);
+            
+        
+
+        circle_marker_09cd82eb5ea2eb8da31a4ba2a4feb2c8.bindPopup(popup_ea9a905a15a356bd320ae0fd861a4ebe)
+        ;
+
+        
+    
+    
+            var poly_line_9993404eeff2c9a17cde39115cd7a5b4 = L.polyline(
+                [[27.8331436, 85.5503312], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_814346d304010ac0cb44d3e3faa57106 = L.circleMarker(
+                [27.8314197, 85.5751098],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_8f64695a6909c89ad009683af2c983b2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2672b9f60188a0c3016ffb3aec18f89c = $(`<div id="html_2672b9f60188a0c3016ffb3aec18f89c" style="width: 100.0%; height: 100.0%;">     <b>Melamchi phc</b><br>     Type: clinic<br>     Elevation: 853m<br>     Distance to Hub: 2.92 km     </div>`)[0];
+                popup_8f64695a6909c89ad009683af2c983b2.setContent(html_2672b9f60188a0c3016ffb3aec18f89c);
+            
+        
+
+        circle_marker_814346d304010ac0cb44d3e3faa57106.bindPopup(popup_8f64695a6909c89ad009683af2c983b2)
+        ;
+
+        
+    
+    
+            var poly_line_2b5119cda6b1be84eb87cbff0f019820 = L.polyline(
+                [[27.8314197, 85.5751098], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_689f40e403887e6a3128ca2f7ee9f7fe = L.circleMarker(
+                [27.831683, 85.5731934],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_364ebf2ae53300e68b9fb0525645e8a8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_06bebbdd9ac52cf55d8f6184f211a62e = $(`<div id="html_06bebbdd9ac52cf55d8f6184f211a62e" style="width: 100.0%; height: 100.0%;">     <b>Melamchi polyclinic and research center</b><br>     Type: clinic<br>     Elevation: 850m<br>     Distance to Hub: 2.84 km     </div>`)[0];
+                popup_364ebf2ae53300e68b9fb0525645e8a8.setContent(html_06bebbdd9ac52cf55d8f6184f211a62e);
+            
+        
+
+        circle_marker_689f40e403887e6a3128ca2f7ee9f7fe.bindPopup(popup_364ebf2ae53300e68b9fb0525645e8a8)
+        ;
+
+        
+    
+    
+            var poly_line_f47bfc51b1c771cf36d47a7aaebc9fbb = L.polyline(
+                [[27.831683, 85.5731934], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_5486155cc9ce4f3281dc759cdc6775c2 = L.circleMarker(
+                [27.8271086, 85.5736008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_72c57fc167a4f01f6009c008f8cddeec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54848217b01f0fc67ad08c607435189c = $(`<div id="html_54848217b01f0fc67ad08c607435189c" style="width: 100.0%; height: 100.0%;">     <b>Melamchi hospital</b><br>     Type: hospital<br>     Elevation: 829m<br>     Distance to Hub: 3.33 km     </div>`)[0];
+                popup_72c57fc167a4f01f6009c008f8cddeec.setContent(html_54848217b01f0fc67ad08c607435189c);
+            
+        
+
+        circle_marker_5486155cc9ce4f3281dc759cdc6775c2.bindPopup(popup_72c57fc167a4f01f6009c008f8cddeec)
+        ;
+
+        
+    
+    
+            var poly_line_e7d29c19d21091c4c0bfb53b50ca1510 = L.polyline(
+                [[27.8271086, 85.5736008], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_fb057e295ef4e5f93cf7717f8c6e12ee = L.circleMarker(
+                [27.8309815, 85.5722607],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_a1b9a0a0b265ab1c8d62ce277779c633 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d0260620fa517d37ef3adedba1ee7033 = $(`<div id="html_d0260620fa517d37ef3adedba1ee7033" style="width: 100.0%; height: 100.0%;">     <b>Jaraayetar Ayurveda Aushadhalaya</b><br>     Type: clinic<br>     Elevation: 866m<br>     Distance to Hub: 2.88 km     </div>`)[0];
+                popup_a1b9a0a0b265ab1c8d62ce277779c633.setContent(html_d0260620fa517d37ef3adedba1ee7033);
+            
+        
+
+        circle_marker_fb057e295ef4e5f93cf7717f8c6e12ee.bindPopup(popup_a1b9a0a0b265ab1c8d62ce277779c633)
+        ;
+
+        
+    
+    
+            var poly_line_eb88f2cf50bbd84304cc1eeaa7c4424b = L.polyline(
+                [[27.8309815, 85.5722607], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_df3575155a9bc4afc4d123b3aa3a28b7 = L.circleMarker(
+                [27.8578766, 85.5267802],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_fef8d167911243da0a4c82c708d14f63 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_77b1249d85b8f77ae8e0dbcd5d3abac5 = $(`<div id="html_77b1249d85b8f77ae8e0dbcd5d3abac5" style="width: 100.0%; height: 100.0%;">     <b>Lalamarang swasthe chauki</b><br>     Type: clinic<br>     Elevation: 1514m<br>     Distance to Hub: 3.74 km     </div>`)[0];
+                popup_fef8d167911243da0a4c82c708d14f63.setContent(html_77b1249d85b8f77ae8e0dbcd5d3abac5);
+            
+        
+
+        circle_marker_df3575155a9bc4afc4d123b3aa3a28b7.bindPopup(popup_fef8d167911243da0a4c82c708d14f63)
+        ;
+
+        
+    
+    
+            var poly_line_766a8867a058e170d3d1f3cfb6b801c8 = L.polyline(
+                [[27.8578766, 85.5267802], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_1768d2bd4d55fa3b6e3725b6dd16356a = L.circleMarker(
+                [27.8747804, 85.5842859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_bc14e1394e45da36ad84d1e160de6975 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ba8f5a2ecfd6b0595d29b47ebc6770c2 = $(`<div id="html_ba8f5a2ecfd6b0595d29b47ebc6770c2" style="width: 100.0%; height: 100.0%;">     <b>Keureni Swasthe Ikai</b><br>     Type: clinic<br>     Elevation: 1398m<br>     Distance to Hub: 2.88 km     </div>`)[0];
+                popup_bc14e1394e45da36ad84d1e160de6975.setContent(html_ba8f5a2ecfd6b0595d29b47ebc6770c2);
+            
+        
+
+        circle_marker_1768d2bd4d55fa3b6e3725b6dd16356a.bindPopup(popup_bc14e1394e45da36ad84d1e160de6975)
+        ;
+
+        
+    
+    
+            var poly_line_fa8734f7189cea04e91214268a6bf0a3 = L.polyline(
+                [[27.8747804, 85.5842859], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_d27c79f9b41a2efbe78a1a0b88d3c165 = L.circleMarker(
+                [27.870173, 85.5684107],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_05475e7f25f9ea1b154a637848d70a70 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_da73289562c319d522059e5a9ec23aa4 = $(`<div id="html_da73289562c319d522059e5a9ec23aa4" style="width: 100.0%; height: 100.0%;">     <b>Dubachaur swasthe chauki</b><br>     Type: clinic<br>     Elevation: 1551m<br>     Distance to Hub: 1.67 km     </div>`)[0];
+                popup_05475e7f25f9ea1b154a637848d70a70.setContent(html_da73289562c319d522059e5a9ec23aa4);
+            
+        
+
+        circle_marker_d27c79f9b41a2efbe78a1a0b88d3c165.bindPopup(popup_05475e7f25f9ea1b154a637848d70a70)
+        ;
+
+        
+    
+    
+            var poly_line_815d58a9925ffe7e03fe25edf536fd1b = L.polyline(
+                [[27.870173, 85.5684107], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_a51ab0db3d8e6289800b63454966f874 = L.circleMarker(
+                [27.7208454, 85.7507731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_b3829de930e724a60cd20a31a8338c9a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6fb9bf566d8c342d42eaafdb7e8c3e1b = $(`<div id="html_6fb9bf566d8c342d42eaafdb7e8c3e1b" style="width: 100.0%; height: 100.0%;">     <b>Urban Health Center Jitpur</b><br>     Type: clinic<br>     Elevation: 1285m<br>     Distance to Hub: 5.78 km     </div>`)[0];
+                popup_b3829de930e724a60cd20a31a8338c9a.setContent(html_6fb9bf566d8c342d42eaafdb7e8c3e1b);
+            
+        
+
+        circle_marker_a51ab0db3d8e6289800b63454966f874.bindPopup(popup_b3829de930e724a60cd20a31a8338c9a)
+        ;
+
+        
+    
+    
+            var poly_line_9889b9292601138e3cd2ca2b9cb92d51 = L.polyline(
+                [[27.7208454, 85.7507731], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_d397581e599a77cc2d92ee10afc6b4fa = L.circleMarker(
+                [27.7795288, 85.6811707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_635edf27e4652eaf36ecbf2c6097ca3c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_77c5840727ae0d78962ed56ba0b811b2 = $(`<div id="html_77c5840727ae0d78962ed56ba0b811b2" style="width: 100.0%; height: 100.0%;">     <b>Urban Health Center Pipaldada</b><br>     Type: clinic<br>     Elevation: 1090m<br>     Distance to Hub: 4.24 km     </div>`)[0];
+                popup_635edf27e4652eaf36ecbf2c6097ca3c.setContent(html_77c5840727ae0d78962ed56ba0b811b2);
+            
+        
+
+        circle_marker_d397581e599a77cc2d92ee10afc6b4fa.bindPopup(popup_635edf27e4652eaf36ecbf2c6097ca3c)
+        ;
+
+        
+    
+    
+            var poly_line_7f02bd5eb3f364b274393bb5daf9eb34 = L.polyline(
+                [[27.7795288, 85.6811707], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_4cab364aab1acc54b95551d638106e1c = L.circleMarker(
+                [27.778654, 85.7403701],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_617b1ff78073a70744740ef83a88c1f0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d35422c60e0a3b0c198beb7e57f7ef03 = $(`<div id="html_d35422c60e0a3b0c198beb7e57f7ef03" style="width: 100.0%; height: 100.0%;">     <b>Deurali Urban Health Center</b><br>     Type: clinic<br>     Elevation: 1288m<br>     Distance to Hub: 2.38 km     </div>`)[0];
+                popup_617b1ff78073a70744740ef83a88c1f0.setContent(html_d35422c60e0a3b0c198beb7e57f7ef03);
+            
+        
+
+        circle_marker_4cab364aab1acc54b95551d638106e1c.bindPopup(popup_617b1ff78073a70744740ef83a88c1f0)
+        ;
+
+        
+    
+    
+            var poly_line_0177272c457d5525555b75ff66159498 = L.polyline(
+                [[27.778654, 85.7403701], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_69d6e11d9900b8f07e4902a0337deddd = L.circleMarker(
+                [27.7746914, 85.7146149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_0ca3f28d395e347cc1f0a9d2942e805d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ea82b49d0ecdfa9c4f7fbf430cb53c31 = $(`<div id="html_ea82b49d0ecdfa9c4f7fbf430cb53c31" style="width: 100.0%; height: 100.0%;">     <b>Bandevi Polyclinic pvt. Ltd</b><br>     Type: pharmacy<br>     Elevation: 1440m<br>     Distance to Hub: 1.19 km     </div>`)[0];
+                popup_0ca3f28d395e347cc1f0a9d2942e805d.setContent(html_ea82b49d0ecdfa9c4f7fbf430cb53c31);
+            
+        
+
+        circle_marker_69d6e11d9900b8f07e4902a0337deddd.bindPopup(popup_0ca3f28d395e347cc1f0a9d2942e805d)
+        ;
+
+        
+    
+    
+            var poly_line_42f972cccc0afe470cf6b0182fa86a27 = L.polyline(
+                [[27.7746914, 85.7146149], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_7bec653d15111fc42e468d33697d2660 = L.circleMarker(
+                [27.7749089, 85.7142417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_a1ad159615eb0af1823a0d975824f54d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_af72c049020aafe03263b274549e9913 = $(`<div id="html_af72c049020aafe03263b274549e9913" style="width: 100.0%; height: 100.0%;">     <b>Shree Prayas Pharma</b><br>     Type: pharmacy<br>     Elevation: 1443m<br>     Distance to Hub: 1.23 km     </div>`)[0];
+                popup_a1ad159615eb0af1823a0d975824f54d.setContent(html_af72c049020aafe03263b274549e9913);
+            
+        
+
+        circle_marker_7bec653d15111fc42e468d33697d2660.bindPopup(popup_a1ad159615eb0af1823a0d975824f54d)
+        ;
+
+        
+    
+    
+            var poly_line_7fd5df05be3a2a3de54cb2ab04768055 = L.polyline(
+                [[27.7749089, 85.7142417], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_832eebc264f4b2e606d32c32b0189a01 = L.circleMarker(
+                [27.7767679, 85.7125197],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_be097494fb265ce66860c858e43bf4ec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_898080d535974564ff1a942612414692 = $(`<div id="html_898080d535974564ff1a942612414692" style="width: 100.0%; height: 100.0%;">     <b>Harisiddhi Medical Hall</b><br>     Type: pharmacy<br>     Elevation: 1461m<br>     Distance to Hub: 1.50 km     </div>`)[0];
+                popup_be097494fb265ce66860c858e43bf4ec.setContent(html_898080d535974564ff1a942612414692);
+            
+        
+
+        circle_marker_832eebc264f4b2e606d32c32b0189a01.bindPopup(popup_be097494fb265ce66860c858e43bf4ec)
+        ;
+
+        
+    
+    
+            var poly_line_29651cfb0b55fc79323fd752c5be1a2e = L.polyline(
+                [[27.7767679, 85.7125197], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_eb25735b2480b5dfe056f96ea26eb41b = L.circleMarker(
+                [27.7195235, 85.7303732],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_80dc7fcd4085f895b04f4c0a17e87e05 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ce8935bb72ee23b7674c8206e18947e3 = $(`<div id="html_ce8935bb72ee23b7674c8206e18947e3" style="width: 100.0%; height: 100.0%;">     <b>Jalkeni Health Post</b><br>     Type: clinic<br>     Elevation: 1525m<br>     Distance to Hub: 5.22 km     </div>`)[0];
+                popup_80dc7fcd4085f895b04f4c0a17e87e05.setContent(html_ce8935bb72ee23b7674c8206e18947e3);
+            
+        
+
+        circle_marker_eb25735b2480b5dfe056f96ea26eb41b.bindPopup(popup_80dc7fcd4085f895b04f4c0a17e87e05)
+        ;
+
+        
+    
+    
+            var poly_line_23da2f5fe2380c7babc1478bda15f5d1 = L.polyline(
+                [[27.7195235, 85.7303732], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_f15e4784ad8111699c23a6200c074a42 = L.circleMarker(
+                [27.803109, 85.7426232],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_63fbc36869e8fcc1e3340000137c6407 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c503ba8796cb67db7eb1e7f78c7e8171 = $(`<div id="html_c503ba8796cb67db7eb1e7f78c7e8171" style="width: 100.0%; height: 100.0%;">     <b>Batase Health Post</b><br>     Type: clinic<br>     Elevation: 1368m<br>     Distance to Hub: 4.66 km     </div>`)[0];
+                popup_63fbc36869e8fcc1e3340000137c6407.setContent(html_c503ba8796cb67db7eb1e7f78c7e8171);
+            
+        
+
+        circle_marker_f15e4784ad8111699c23a6200c074a42.bindPopup(popup_63fbc36869e8fcc1e3340000137c6407)
+        ;
+
+        
+    
+    
+            var poly_line_989d103482d0757de50a2682c494cc1b = L.polyline(
+                [[27.803109, 85.7426232], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_9fc3ccf76064b47015ddc2fe4d703868 = L.circleMarker(
+                [27.7357969, 85.7098694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_f6734e78e42087db77ace96a1dd8f6cf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_32d321b9a9ee0adda5bcc2841a795cf7 = $(`<div id="html_32d321b9a9ee0adda5bcc2841a795cf7" style="width: 100.0%; height: 100.0%;">     <b>Thulosirubari Health Post</b><br>     Type: clinic<br>     Elevation: 1465m<br>     Distance to Hub: 3.51 km     </div>`)[0];
+                popup_f6734e78e42087db77ace96a1dd8f6cf.setContent(html_32d321b9a9ee0adda5bcc2841a795cf7);
+            
+        
+
+        circle_marker_9fc3ccf76064b47015ddc2fe4d703868.bindPopup(popup_f6734e78e42087db77ace96a1dd8f6cf)
+        ;
+
+        
+    
+    
+            var poly_line_e3d1f8f113aa8b339ce362bd6c1f1a77 = L.polyline(
+                [[27.7357969, 85.7098694], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_96f553cd653aae1e7525378cd8bd5270 = L.circleMarker(
+                [27.7298459, 85.7682212],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_f76193ad0184ada0af5416151f16316d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d6796909cd87cf2cb5a8fc944128bee7 = $(`<div id="html_d6796909cd87cf2cb5a8fc944128bee7" style="width: 100.0%; height: 100.0%;">     <b>Kadambas Health Post</b><br>     Type: clinic<br>     Elevation: 1145m<br>     Distance to Hub: 6.11 km     </div>`)[0];
+                popup_f76193ad0184ada0af5416151f16316d.setContent(html_d6796909cd87cf2cb5a8fc944128bee7);
+            
+        
+
+        circle_marker_96f553cd653aae1e7525378cd8bd5270.bindPopup(popup_f76193ad0184ada0af5416151f16316d)
+        ;
+
+        
+    
+    
+            var poly_line_25f7709591eaea1fc444864ae34900c2 = L.polyline(
+                [[27.7298459, 85.7682212], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_88156c008e70e65e2b894a3a3688ffe0 = L.circleMarker(
+                [27.7605463, 85.7064408],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_a4108cfe9f86a9b6b42216af0cb5d1b6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_13a0c6c667933322276fba376e45609d = $(`<div id="html_13a0c6c667933322276fba376e45609d" style="width: 100.0%; height: 100.0%;">     <b>Sanusiruwari Health Post</b><br>     Type: clinic<br>     Elevation: 1257m<br>     Distance to Hub: 1.57 km     </div>`)[0];
+                popup_a4108cfe9f86a9b6b42216af0cb5d1b6.setContent(html_13a0c6c667933322276fba376e45609d);
+            
+        
+
+        circle_marker_88156c008e70e65e2b894a3a3688ffe0.bindPopup(popup_a4108cfe9f86a9b6b42216af0cb5d1b6)
+        ;
+
+        
+    
+    
+            var poly_line_932f9384d303bd47347ded8c35d736ce = L.polyline(
+                [[27.7605463, 85.7064408], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_606805b8d29236cc8f1aef9f00c489c1 = L.circleMarker(
+                [27.7938757, 85.6844739],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_972c59a9e11685fbe7367a5f608a291a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8a172337cae1923445c3b03dbe839427 = $(`<div id="html_8a172337cae1923445c3b03dbe839427" style="width: 100.0%; height: 100.0%;">     <b>Pipaldada Health Post</b><br>     Type: clinic<br>     Elevation: 1294m<br>     Distance to Hub: 4.78 km     </div>`)[0];
+                popup_972c59a9e11685fbe7367a5f608a291a.setContent(html_8a172337cae1923445c3b03dbe839427);
+            
+        
+
+        circle_marker_606805b8d29236cc8f1aef9f00c489c1.bindPopup(popup_972c59a9e11685fbe7367a5f608a291a)
+        ;
+
+        
+    
+    
+            var poly_line_dbaef7387108bab2f425f0206f9cd889 = L.polyline(
+                [[27.7938757, 85.6844739], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_d8884cde1a1389fef660bbc8809dac52 = L.circleMarker(
+                [27.7456784, 85.7486018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_f1a55f80dd7b2a279ac0c98bd8649930 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b7ac42ff6bf52ec6965c15ba5a220a3d = $(`<div id="html_b7ac42ff6bf52ec6965c15ba5a220a3d" style="width: 100.0%; height: 100.0%;">     <b>Irkhu Health Post</b><br>     Type: clinic<br>     Elevation: 1614m<br>     Distance to Hub: 3.51 km     </div>`)[0];
+                popup_f1a55f80dd7b2a279ac0c98bd8649930.setContent(html_b7ac42ff6bf52ec6965c15ba5a220a3d);
+            
+        
+
+        circle_marker_d8884cde1a1389fef660bbc8809dac52.bindPopup(popup_f1a55f80dd7b2a279ac0c98bd8649930)
+        ;
+
+        
+    
+    
+            var poly_line_1fa49d0e2a3ab81f274f60eacd44da1d = L.polyline(
+                [[27.7456784, 85.7486018], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_e6314980bfc12991a2428dcb20aaf8f1 = L.circleMarker(
+                [27.7766635, 85.7534157],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_6948d35b1e339a210b6d7cea4086554b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ae1fc63c19a53ffdcf59e1793d4ded5c = $(`<div id="html_ae1fc63c19a53ffdcf59e1793d4ded5c" style="width: 100.0%; height: 100.0%;">     <b>Kubuinde Health Post</b><br>     Type: clinic<br>     Elevation: 1073m<br>     Distance to Hub: 3.41 km     </div>`)[0];
+                popup_6948d35b1e339a210b6d7cea4086554b.setContent(html_ae1fc63c19a53ffdcf59e1793d4ded5c);
+            
+        
+
+        circle_marker_e6314980bfc12991a2428dcb20aaf8f1.bindPopup(popup_6948d35b1e339a210b6d7cea4086554b)
+        ;
+
+        
+    
+    
+            var poly_line_f6d1afcae5f6871d57db08ccd24948cb = L.polyline(
+                [[27.7766635, 85.7534157], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_a7086719772b39a2240f6ef63602f294 = L.circleMarker(
+                [27.8124164, 85.6930486],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_3749abd06a5f885a39b99b4e4d1b4449 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1224b8ce3f0c11040981a1ddf35cac23 = $(`<div id="html_1224b8ce3f0c11040981a1ddf35cac23" style="width: 100.0%; height: 100.0%;">     <b>Syaule Health Post</b><br>     Type: clinic<br>     Elevation: 1624m<br>     Distance to Hub: 5.89 km     </div>`)[0];
+                popup_3749abd06a5f885a39b99b4e4d1b4449.setContent(html_1224b8ce3f0c11040981a1ddf35cac23);
+            
+        
+
+        circle_marker_a7086719772b39a2240f6ef63602f294.bindPopup(popup_3749abd06a5f885a39b99b4e4d1b4449)
+        ;
+
+        
+    
+    
+            var poly_line_6f45f45333e0810c1e7b0f939d83911d = L.polyline(
+                [[27.8124164, 85.6930486], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_bd12469aba03b19f17dbc02c3b05eac5 = L.circleMarker(
+                [27.7804792, 85.7112068],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_88e4d6e8c5c0a64e33bf4633c8737213 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d1c936859e746a726321bb977444e9c4 = $(`<div id="html_d1c936859e746a726321bb977444e9c4" style="width: 100.0%; height: 100.0%;">     <b>Chautara Hospital Sindhupalchok</b><br>     Type: hospital<br>     Elevation: 1483m<br>     Distance to Hub: 1.92 km     </div>`)[0];
+                popup_88e4d6e8c5c0a64e33bf4633c8737213.setContent(html_d1c936859e746a726321bb977444e9c4);
+            
+        
+
+        circle_marker_bd12469aba03b19f17dbc02c3b05eac5.bindPopup(popup_88e4d6e8c5c0a64e33bf4633c8737213)
+        ;
+
+        
+    
+    
+            var poly_line_d96ca86729ec2322e0009be8d792cff5 = L.polyline(
+                [[27.7804792, 85.7112068], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_62ea007f49a9ee8444c98cc03731f700 = L.circleMarker(
+                [27.6980952, 85.727518],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_7812944e81221e13e2d082c4c30c1d9a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9feabdb66a68ff725130f87b69852389 = $(`<div id="html_9feabdb66a68ff725130f87b69852389" style="width: 100.0%; height: 100.0%;">     <b>Community Health Unit Khatrithok</b><br>     Type: clinic<br>     Elevation: 1080m<br>     Distance to Hub: 7.55 km     </div>`)[0];
+                popup_7812944e81221e13e2d082c4c30c1d9a.setContent(html_9feabdb66a68ff725130f87b69852389);
+            
+        
+
+        circle_marker_62ea007f49a9ee8444c98cc03731f700.bindPopup(popup_7812944e81221e13e2d082c4c30c1d9a)
+        ;
+
+        
+    
+    
+            var poly_line_cafb86ba4f576daf8b32a1b06f1b7918 = L.polyline(
+                [[27.6980952, 85.727518], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_aa0b8962175d3d9d6afe7b5b900139f0 = L.circleMarker(
+                [27.7175414, 85.6918426],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_ee7893dcd65a5085a3c59624319cecb8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fbce7be5d16ebad4cfa562c97d67af40 = $(`<div id="html_fbce7be5d16ebad4cfa562c97d67af40" style="width: 100.0%; height: 100.0%;">     <b>Community Health Unit Daduwa</b><br>     Type: clinic<br>     Elevation: 1303m<br>     Distance to Hub: 6.09 km     </div>`)[0];
+                popup_ee7893dcd65a5085a3c59624319cecb8.setContent(html_fbce7be5d16ebad4cfa562c97d67af40);
+            
+        
+
+        circle_marker_aa0b8962175d3d9d6afe7b5b900139f0.bindPopup(popup_ee7893dcd65a5085a3c59624319cecb8)
+        ;
+
+        
+    
+    
+            var poly_line_609d25a3e11a29d1de7cf9a1a57851f4 = L.polyline(
+                [[27.7175414, 85.6918426], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_bc20b4ddeb16661a4088656b4904eca6 = L.circleMarker(
+                [27.6970277, 85.7116031],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_db4c3293d62ac8967d135252b9f14df2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_882d858abe9266a1721742523560c08f = $(`<div id="html_882d858abe9266a1721742523560c08f" style="width: 100.0%; height: 100.0%;">     <b>Sangachok Basic Health Service and Delivery Service center.</b><br>     Type: clinic<br>     Elevation: 1256m<br>     Distance to Hub: 7.70 km     </div>`)[0];
+                popup_db4c3293d62ac8967d135252b9f14df2.setContent(html_882d858abe9266a1721742523560c08f);
+            
+        
+
+        circle_marker_bc20b4ddeb16661a4088656b4904eca6.bindPopup(popup_db4c3293d62ac8967d135252b9f14df2)
+        ;
+
+        
+    
+    
+            var poly_line_badd0ef665f5072dc611af7242279d37 = L.polyline(
+                [[27.6970277, 85.7116031], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_2c2b4ebdfa52cba0754555a55e9a1a11 = L.circleMarker(
+                [27.7797853, 85.7115045],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_da506f93a34f8af9dd9565ee1bdd4451 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_883cd3b047b7245b06a5497bc4fd4f0e = $(`<div id="html_883cd3b047b7245b06a5497bc4fd4f0e" style="width: 100.0%; height: 100.0%;">     <b>District Community Eye Center</b><br>     Type: hospital<br>     Elevation: 1472m<br>     Distance to Hub: 1.84 km     </div>`)[0];
+                popup_da506f93a34f8af9dd9565ee1bdd4451.setContent(html_883cd3b047b7245b06a5497bc4fd4f0e);
+            
+        
+
+        circle_marker_2c2b4ebdfa52cba0754555a55e9a1a11.bindPopup(popup_da506f93a34f8af9dd9565ee1bdd4451)
+        ;
+
+        
+    
+    
+            var poly_line_20cad3614653b457bd65c02cf8dce0d5 = L.polyline(
+                [[27.7797853, 85.7115045], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_b12665d5dc322db709d936f375ec6603 = L.circleMarker(
+                [27.7062602, 85.6888469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_829d43ab886c255f7fec15a9ebba3720 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3e5f9d8e4b9b4069e7e11dd757d1bd36 = $(`<div id="html_3e5f9d8e4b9b4069e7e11dd757d1bd36" style="width: 100.0%; height: 100.0%;">     <b>Basic Health Care Center Gairitar</b><br>     Type: clinic<br>     Elevation: 1061m<br>     Distance to Hub: 7.34 km     </div>`)[0];
+                popup_829d43ab886c255f7fec15a9ebba3720.setContent(html_3e5f9d8e4b9b4069e7e11dd757d1bd36);
+            
+        
+
+        circle_marker_b12665d5dc322db709d936f375ec6603.bindPopup(popup_829d43ab886c255f7fec15a9ebba3720)
+        ;
+
+        
+    
+    
+            var poly_line_219251741c5d99e89fe9c8ce34b86534 = L.polyline(
+                [[27.7062602, 85.6888469], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_61233767ae7b5212e474a0029175098a = L.circleMarker(
+                [27.8023889, 85.7571467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_0249e9638e5307ea1e115179872d2301 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b11a2c66ca9d0775b54f9ac1c3acf2e9 = $(`<div id="html_b11a2c66ca9d0775b54f9ac1c3acf2e9" style="width: 100.0%; height: 100.0%;">     <b>Batase Basic Health Care Center</b><br>     Type: clinic<br>     Elevation: 1096m<br>     Distance to Hub: 5.41 km     </div>`)[0];
+                popup_0249e9638e5307ea1e115179872d2301.setContent(html_b11a2c66ca9d0775b54f9ac1c3acf2e9);
+            
+        
+
+        circle_marker_61233767ae7b5212e474a0029175098a.bindPopup(popup_0249e9638e5307ea1e115179872d2301)
+        ;
+
+        
+    
+    
+            var poly_line_e8ef7948598aeb123a38afc0d6fa0b70 = L.polyline(
+                [[27.8023889, 85.7571467], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_d10742cd5ca33e5ea0ee9a7f412a03d3 = L.circleMarker(
+                [27.689774, 85.6893676],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_f23c5238e5a85b3dca00c12f2d83ece7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fbb1662dbf418d3e4ee823ed6d280158 = $(`<div id="html_fbb1662dbf418d3e4ee823ed6d280158" style="width: 100.0%; height: 100.0%;">     <b>Bhimtar Basic Health Service Centre</b><br>     Type: clinic<br>     Elevation: 789m<br>     Distance to Hub: 9.02 km     </div>`)[0];
+                popup_f23c5238e5a85b3dca00c12f2d83ece7.setContent(html_fbb1662dbf418d3e4ee823ed6d280158);
+            
+        
+
+        circle_marker_d10742cd5ca33e5ea0ee9a7f412a03d3.bindPopup(popup_f23c5238e5a85b3dca00c12f2d83ece7)
+        ;
+
+        
+    
+    
+            var poly_line_21b935cf511d5191605508df55530298 = L.polyline(
+                [[27.689774, 85.6893676], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_f230aac3306e4771792903474098ef23 = L.circleMarker(
+                [27.753582, 85.7304811],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_52673a9223cecb71d86446256f0f49a9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_426bda1aba972b643d2046dcc2527bec = $(`<div id="html_426bda1aba972b643d2046dcc2527bec" style="width: 100.0%; height: 100.0%;">     <b>Melchaur Community Health Centre</b><br>     Type: clinic<br>     Elevation: 1524m<br>     Distance to Hub: 1.64 km     </div>`)[0];
+                popup_52673a9223cecb71d86446256f0f49a9.setContent(html_426bda1aba972b643d2046dcc2527bec);
+            
+        
+
+        circle_marker_f230aac3306e4771792903474098ef23.bindPopup(popup_52673a9223cecb71d86446256f0f49a9)
+        ;
+
+        
+    
+    
+            var poly_line_095a05fd4a56bbefc2e8e193c0ae84be = L.polyline(
+                [[27.753582, 85.7304811], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_9f63b5e2539aa9fd48a0385158ef4503 = L.circleMarker(
+                [27.7721384, 85.7186083],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_f721f2a65d458a12af46fc7aa69bc765 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9386ac8ec79435b0dc77f488da3b4671 = $(`<div id="html_9386ac8ec79435b0dc77f488da3b4671" style="width: 100.0%; height: 100.0%;">     <b>Chautara Basic Health Facility Center Ward no. 5</b><br>     Type: clinic<br>     Elevation: 1437m<br>     Distance to Hub: 0.76 km     </div>`)[0];
+                popup_f721f2a65d458a12af46fc7aa69bc765.setContent(html_9386ac8ec79435b0dc77f488da3b4671);
+            
+        
+
+        circle_marker_9f63b5e2539aa9fd48a0385158ef4503.bindPopup(popup_f721f2a65d458a12af46fc7aa69bc765)
+        ;
+
+        
+    
+    
+            var poly_line_0b3dbe5739549ff351b799712e0a7ca6 = L.polyline(
+                [[27.7721384, 85.7186083], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_75e88706d4705394ee0ec6e06868dbef = L.circleMarker(
+                [27.7755843, 85.6964533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_a053ae8be00c8a4e52df9a7e3ac04ebf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_42a2a7dae1b7854386fa3602e48d9af4 = $(`<div id="html_42a2a7dae1b7854386fa3602e48d9af4" style="width: 100.0%; height: 100.0%;">     <b>Pipaldada Ayurved Aushadhalaya</b><br>     Type: pharmacy<br>     Elevation: 1303m<br>     Distance to Hub: 2.67 km     </div>`)[0];
+                popup_a053ae8be00c8a4e52df9a7e3ac04ebf.setContent(html_42a2a7dae1b7854386fa3602e48d9af4);
+            
+        
+
+        circle_marker_75e88706d4705394ee0ec6e06868dbef.bindPopup(popup_a053ae8be00c8a4e52df9a7e3ac04ebf)
+        ;
+
+        
+    
+    
+            var poly_line_ef22f9256694607a24b5eb0b1c0d10cc = L.polyline(
+                [[27.7755843, 85.6964533], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+            var circle_marker_d67fc6e00f49f63eb81f24190c58063e = L.circleMarker(
+                [27.789962700000004, 85.89832634999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+    
+        var popup_13deebf37b86f65325126d10d0124cfe = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8ca3d6fb7ba64d145313a28e7d8f945c = $(`<div id="html_8ca3d6fb7ba64d145313a28e7d8f945c" style="width: 100.0%; height: 100.0%;">     <b>Keystone Hospital & Research Centre</b><br>     Type: hospital<br>     Elevation: 861m<br>     Distance to Hub: 1.89 km     </div>`)[0];
+                popup_13deebf37b86f65325126d10d0124cfe.setContent(html_8ca3d6fb7ba64d145313a28e7d8f945c);
+            
+        
+
+        circle_marker_d67fc6e00f49f63eb81f24190c58063e.bindPopup(popup_13deebf37b86f65325126d10d0124cfe)
+        ;
+
+        
+    
+    
+            var poly_line_b1f3ab7bbf0de3957c5c24dbccb1ee25 = L.polyline(
+                [[27.789962700000004, 85.89832634999999], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_94c31f4913dfd53100036e2ed83052bf);
+        
+</script>
+</html>

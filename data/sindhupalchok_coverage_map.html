@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48ffc0a8548af023df201f372cd28115 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_48ffc0a8548af023df201f372cd28115" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_48ffc0a8548af023df201f372cd28115 = L.map(
+                "map_48ffc0a8548af023df201f372cd28115",
+                {
+                    center: [27.79363534255319, 85.69830301595744],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9c94b76f80cdd358b4e0a9f95ef630ab = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9c94b76f80cdd358b4e0a9f95ef630ab.addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_95a6f19d6d2af6ffe69a92d109c1b3d7 = L.circle(
+                [27.85551710714286, 85.56475796428572],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80000, "stroke": true, "weight": 2}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_67f9ea19e4fe0da83cde31e8d451c8b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eebb851e31552c2f0b8c50241de695be = $(`<div id="html_eebb851e31552c2f0b8c50241de695be" style="width: 100.0%; height: 100.0%;">Hub 0: 80km Safe Flight Zone</div>`)[0];
+                popup_67f9ea19e4fe0da83cde31e8d451c8b9.setContent(html_eebb851e31552c2f0b8c50241de695be);
+            
+        
+
+        circle_95a6f19d6d2af6ffe69a92d109c1b3d7.bindPopup(popup_67f9ea19e4fe0da83cde31e8d451c8b9)
+        ;
+
+        
+    
+    
+            var marker_9fff31b2e114b25c2d0113b80c8d77ed = L.marker(
+                [27.85551710714286, 85.56475796428572],
+                {
+}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var icon_6db1cf7077651d3b09503b46f71ed913 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d22aa60518490b033c5956cac329cb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_459b8e75d05468872638c16bfcb977ba = $(`<div id="html_459b8e75d05468872638c16bfcb977ba" style="width: 100.0%; height: 100.0%;"><b>DRONE HUB 0</b><br>Elevation: 1427m</div>`)[0];
+                popup_6d22aa60518490b033c5956cac329cb1.setContent(html_459b8e75d05468872638c16bfcb977ba);
+            
+        
+
+        marker_9fff31b2e114b25c2d0113b80c8d77ed.bindPopup(popup_6d22aa60518490b033c5956cac329cb1)
+        ;
+
+        
+    
+    
+                marker_9fff31b2e114b25c2d0113b80c8d77ed.setIcon(icon_6db1cf7077651d3b09503b46f71ed913);
+            
+    
+            var circle_d35e26f0ddbc79c366d7420e2ebdaba0 = L.circle(
+                [27.765707503703705, 85.72119095925926],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80000, "stroke": true, "weight": 2}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_a23ef5c3a0d30ad4a98e7f824ca32d3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7574365d2e529b0177ce8810480bd168 = $(`<div id="html_7574365d2e529b0177ce8810480bd168" style="width: 100.0%; height: 100.0%;">Hub 1: 80km Safe Flight Zone</div>`)[0];
+                popup_a23ef5c3a0d30ad4a98e7f824ca32d3a.setContent(html_7574365d2e529b0177ce8810480bd168);
+            
+        
+
+        circle_d35e26f0ddbc79c366d7420e2ebdaba0.bindPopup(popup_a23ef5c3a0d30ad4a98e7f824ca32d3a)
+        ;
+
+        
+    
+    
+            var marker_4f9367c709072b15104954f9984088a1 = L.marker(
+                [27.765707503703705, 85.72119095925926],
+                {
+}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var icon_b59d9c67fd8187bf719d4e9736811c91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36ba94f128586de121fc4903da923d43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffb4dbac459ffbe898ba8efba222be17 = $(`<div id="html_ffb4dbac459ffbe898ba8efba222be17" style="width: 100.0%; height: 100.0%;"><b>DRONE HUB 1</b><br>Elevation: 1378m</div>`)[0];
+                popup_36ba94f128586de121fc4903da923d43.setContent(html_ffb4dbac459ffbe898ba8efba222be17);
+            
+        
+
+        marker_4f9367c709072b15104954f9984088a1.bindPopup(popup_36ba94f128586de121fc4903da923d43)
+        ;
+
+        
+    
+    
+                marker_4f9367c709072b15104954f9984088a1.setIcon(icon_b59d9c67fd8187bf719d4e9736811c91);
+            
+    
+            var circle_75614fc939d80eaf43e2b3bba91346fa = L.circle(
+                [27.774919833333335, 85.90691239166667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80000, "stroke": true, "weight": 2}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_327609863e1c35190985762313c7688d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78f9481706dac95e33dd79918e896a3a = $(`<div id="html_78f9481706dac95e33dd79918e896a3a" style="width: 100.0%; height: 100.0%;">Hub 2: 80km Safe Flight Zone</div>`)[0];
+                popup_327609863e1c35190985762313c7688d.setContent(html_78f9481706dac95e33dd79918e896a3a);
+            
+        
+
+        circle_75614fc939d80eaf43e2b3bba91346fa.bindPopup(popup_327609863e1c35190985762313c7688d)
+        ;
+
+        
+    
+    
+            var marker_cff15fb3f617642b82815f5cb6b6e70f = L.marker(
+                [27.774919833333335, 85.90691239166667],
+                {
+}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var icon_687971f8b261ec96f2e9df5672d26904 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfbda19071b3a0ec7eb188991366bdb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c133c346f403f91de5207f14624c1be9 = $(`<div id="html_c133c346f403f91de5207f14624c1be9" style="width: 100.0%; height: 100.0%;"><b>DRONE HUB 2</b><br>Elevation: 1096m</div>`)[0];
+                popup_dfbda19071b3a0ec7eb188991366bdb9.setContent(html_c133c346f403f91de5207f14624c1be9);
+            
+        
+
+        marker_cff15fb3f617642b82815f5cb6b6e70f.bindPopup(popup_dfbda19071b3a0ec7eb188991366bdb9)
+        ;
+
+        
+    
+    
+                marker_cff15fb3f617642b82815f5cb6b6e70f.setIcon(icon_687971f8b261ec96f2e9df5672d26904);
+            
+    
+            var circle_marker_ade194554fd5317abeb97b1f011816dc = L.circleMarker(
+                [27.7964923, 85.9092499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_cb4ad447f787dd3bd0c7dfee08b222f9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8e337ef358309b4df5227ae6a66c6797 = $(`<div id="html_8e337ef358309b4df5227ae6a66c6797" style="width: 100.0%; height: 100.0%;"><b>Bahrabise SHP</b><br>Dist: 2.42 km</div>`)[0];
+                popup_cb4ad447f787dd3bd0c7dfee08b222f9.setContent(html_8e337ef358309b4df5227ae6a66c6797);
+            
+        
+
+        circle_marker_ade194554fd5317abeb97b1f011816dc.bindPopup(popup_cb4ad447f787dd3bd0c7dfee08b222f9)
+        ;
+
+        
+    
+    
+            var poly_line_65f434063bac490779a90fa10c640c7f = L.polyline(
+                [[27.7964923, 85.9092499], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_751112b4a44799118b9717f4fe79a6da = L.circleMarker(
+                [27.8684531, 85.6161532],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_19f83b7ce1be33531561e66d67a5bb3e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_65da5405a60dcf60e3de36ff6989400e = $(`<div id="html_65da5405a60dcf60e3de36ff6989400e" style="width: 100.0%; height: 100.0%;"><b>Lagarche Health Post</b><br>Dist: 5.25 km</div>`)[0];
+                popup_19f83b7ce1be33531561e66d67a5bb3e.setContent(html_65da5405a60dcf60e3de36ff6989400e);
+            
+        
+
+        circle_marker_751112b4a44799118b9717f4fe79a6da.bindPopup(popup_19f83b7ce1be33531561e66d67a5bb3e)
+        ;
+
+        
+    
+    
+            var poly_line_d5c5e89e31d40b60505eaed13c57d18e = L.polyline(
+                [[27.8684531, 85.6161532], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_85eb8e4786b6e4aad7ede6c6a1434299 = L.circleMarker(
+                [27.9375931, 85.6519501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_bfaf4b003a514b13c6e3945711e6fb04 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c601c4e7365898fc95b9afd6c3e555e2 = $(`<div id="html_c601c4e7365898fc95b9afd6c3e555e2" style="width: 100.0%; height: 100.0%;"><b>Dhulikhel Hospital Outreach Centre, Manekharka</b><br>Dist: 12.52 km</div>`)[0];
+                popup_bfaf4b003a514b13c6e3945711e6fb04.setContent(html_c601c4e7365898fc95b9afd6c3e555e2);
+            
+        
+
+        circle_marker_85eb8e4786b6e4aad7ede6c6a1434299.bindPopup(popup_bfaf4b003a514b13c6e3945711e6fb04)
+        ;
+
+        
+    
+    
+            var poly_line_845a09a0f982621645dcb6450789ec22 = L.polyline(
+                [[27.9375931, 85.6519501], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_2696873de6fa0815ab2821649d32baa4 = L.circleMarker(
+                [27.7689843, 85.9543414],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_6d7074e8f66f0fb818e811c58115b3e7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ea343389130c2b1f0b7d3de9f69acbd6 = $(`<div id="html_ea343389130c2b1f0b7d3de9f69acbd6" style="width: 100.0%; height: 100.0%;"><b>nan</b><br>Dist: 4.74 km</div>`)[0];
+                popup_6d7074e8f66f0fb818e811c58115b3e7.setContent(html_ea343389130c2b1f0b7d3de9f69acbd6);
+            
+        
+
+        circle_marker_2696873de6fa0815ab2821649d32baa4.bindPopup(popup_6d7074e8f66f0fb818e811c58115b3e7)
+        ;
+
+        
+    
+    
+            var poly_line_e2123989b222ee94ae01ed1a4785801a = L.polyline(
+                [[27.7689843, 85.9543414], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_c7c3d9391ba47dab13c18c47cabb6089 = L.circleMarker(
+                [28.018491, 85.525661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_0872617846d475d64d75ce0eae4bb1b5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_64239fb211e9311384da7caf6e9ce523 = $(`<div id="html_64239fb211e9311384da7caf6e9ce523" style="width: 100.0%; height: 100.0%;"><b>Dhingha Rangjen Community Health Service Center</b><br>Dist: 18.56 km</div>`)[0];
+                popup_0872617846d475d64d75ce0eae4bb1b5.setContent(html_64239fb211e9311384da7caf6e9ce523);
+            
+        
+
+        circle_marker_c7c3d9391ba47dab13c18c47cabb6089.bindPopup(popup_0872617846d475d64d75ce0eae4bb1b5)
+        ;
+
+        
+    
+    
+            var poly_line_e8ff555ee6b5c6989e2a09e8b526c402 = L.polyline(
+                [[28.018491, 85.525661], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_58fa9442264806573506a0cb956c49a0 = L.circleMarker(
+                [27.7723879, 85.9559969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_b0cfcca6910e39c5d98e221d7f566207 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_61c76871950e538122d0a121811d86d9 = $(`<div id="html_61c76871950e538122d0a121811d86d9" style="width: 100.0%; height: 100.0%;"><b>nan</b><br>Dist: 4.87 km</div>`)[0];
+                popup_b0cfcca6910e39c5d98e221d7f566207.setContent(html_61c76871950e538122d0a121811d86d9);
+            
+        
+
+        circle_marker_58fa9442264806573506a0cb956c49a0.bindPopup(popup_b0cfcca6910e39c5d98e221d7f566207)
+        ;
+
+        
+    
+    
+            var poly_line_0465dd9060ae2275604077a12d4cbfdd = L.polyline(
+                [[27.7723879, 85.9559969], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_7f61912cef3b15c0b1d97b493a72ce36 = L.circleMarker(
+                [27.767616, 85.8939316],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_866bc340c6cf93c9a87c8c9ec701bb40 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_66c0c925eca6f1101479bdc5a20c7204 = $(`<div id="html_66c0c925eca6f1101479bdc5a20c7204" style="width: 100.0%; height: 100.0%;"><b>nan</b><br>Dist: 1.52 km</div>`)[0];
+                popup_866bc340c6cf93c9a87c8c9ec701bb40.setContent(html_66c0c925eca6f1101479bdc5a20c7204);
+            
+        
+
+        circle_marker_7f61912cef3b15c0b1d97b493a72ce36.bindPopup(popup_866bc340c6cf93c9a87c8c9ec701bb40)
+        ;
+
+        
+    
+    
+            var poly_line_bdb9eeb12238e3f9170e87d354e7a56f = L.polyline(
+                [[27.767616, 85.8939316], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_dfac2d0c2e199a89065cfe1a6a6416f4 = L.circleMarker(
+                [28.018594, 85.786819],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_1379066cf04cb1d3fe72e0ed9dcd29df = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6d4fc7c336727455bfd79a3557c05333 = $(`<div id="html_6d4fc7c336727455bfd79a3557c05333" style="width: 100.0%; height: 100.0%;"><b>स्वास्थ्य चौकी</b><br>Dist: 28.86 km</div>`)[0];
+                popup_1379066cf04cb1d3fe72e0ed9dcd29df.setContent(html_6d4fc7c336727455bfd79a3557c05333);
+            
+        
+
+        circle_marker_dfac2d0c2e199a89065cfe1a6a6416f4.bindPopup(popup_1379066cf04cb1d3fe72e0ed9dcd29df)
+        ;
+
+        
+    
+    
+            var poly_line_ba0984b3ab91ac0f8dfd5a2e6a55a5de = L.polyline(
+                [[28.018594, 85.786819], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_87384fc957b2d229efd6d61ff518fdc0 = L.circleMarker(
+                [27.7540758, 85.8296282],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_f7d2969a1678a4163a31929d17cf0409 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_83e78a7304803ed49352b3ce52cc269d = $(`<div id="html_83e78a7304803ed49352b3ce52cc269d" style="width: 100.0%; height: 100.0%;"><b>nan</b><br>Dist: 7.96 km</div>`)[0];
+                popup_f7d2969a1678a4163a31929d17cf0409.setContent(html_83e78a7304803ed49352b3ce52cc269d);
+            
+        
+
+        circle_marker_87384fc957b2d229efd6d61ff518fdc0.bindPopup(popup_f7d2969a1678a4163a31929d17cf0409)
+        ;
+
+        
+    
+    
+            var poly_line_7e003e585609ea0599d9d7dc90d53307 = L.polyline(
+                [[27.7540758, 85.8296282], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_e7cca463dfca0194a49142c2442b0bd2 = L.circleMarker(
+                [27.7889332, 85.5703327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_b20cf89a60f84403c919dd87ef23ae41 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_118bc55bb13801586ba905c1f5a71c1f = $(`<div id="html_118bc55bb13801586ba905c1f5a71c1f" style="width: 100.0%; height: 100.0%;"><b>Bahunepati  health Centre</b><br>Dist: 7.45 km</div>`)[0];
+                popup_b20cf89a60f84403c919dd87ef23ae41.setContent(html_118bc55bb13801586ba905c1f5a71c1f);
+            
+        
+
+        circle_marker_e7cca463dfca0194a49142c2442b0bd2.bindPopup(popup_b20cf89a60f84403c919dd87ef23ae41)
+        ;
+
+        
+    
+    
+            var poly_line_de37a9a3e73babf075e3a3b715df2c89 = L.polyline(
+                [[27.7889332, 85.5703327], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_0d609dc81d98a0897dd3c9d91f67853d = L.circleMarker(
+                [27.7908715, 85.5014537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_c57ddd9821af8379b76e1fa0cd6d2fd6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f48069bfa2658d88c31a5969f3ff0d97 = $(`<div id="html_f48069bfa2658d88c31a5969f3ff0d97" style="width: 100.0%; height: 100.0%;"><b>Gramid samudayek swasthe kendra</b><br>Dist: 9.51 km</div>`)[0];
+                popup_c57ddd9821af8379b76e1fa0cd6d2fd6.setContent(html_f48069bfa2658d88c31a5969f3ff0d97);
+            
+        
+
+        circle_marker_0d609dc81d98a0897dd3c9d91f67853d.bindPopup(popup_c57ddd9821af8379b76e1fa0cd6d2fd6)
+        ;
+
+        
+    
+    
+            var poly_line_002467d388475edb9276a6570da0db4e = L.polyline(
+                [[27.7908715, 85.5014537], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_29baa7a0de8eb1a7964987bbced476b4 = L.circleMarker(
+                [27.8157312, 85.5170881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_829a588bce435edbf28c5331acec0b20 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1458e411ba3d2245eef9ecccb55c3b0c = $(`<div id="html_1458e411ba3d2245eef9ecccb55c3b0c" style="width: 100.0%; height: 100.0%;"><b>Sindhukot swasthe chauki</b><br>Dist: 6.45 km</div>`)[0];
+                popup_829a588bce435edbf28c5331acec0b20.setContent(html_1458e411ba3d2245eef9ecccb55c3b0c);
+            
+        
+
+        circle_marker_29baa7a0de8eb1a7964987bbced476b4.bindPopup(popup_829a588bce435edbf28c5331acec0b20)
+        ;
+
+        
+    
+    
+            var poly_line_55afe805e2303758901040a22f9ba24d = L.polyline(
+                [[27.8157312, 85.5170881], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_35902f3f49376b64f3510bda5974142f = L.circleMarker(
+                [27.8331436, 85.5503312],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_6e1398eba1587e17b4761e7b280d3851 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a7a1be0a8fe888b8a1fb0d2a990b39fb = $(`<div id="html_a7a1be0a8fe888b8a1fb0d2a990b39fb" style="width: 100.0%; height: 100.0%;"><b>Katunge sahari swasthe</b><br>Dist: 2.86 km</div>`)[0];
+                popup_6e1398eba1587e17b4761e7b280d3851.setContent(html_a7a1be0a8fe888b8a1fb0d2a990b39fb);
+            
+        
+
+        circle_marker_35902f3f49376b64f3510bda5974142f.bindPopup(popup_6e1398eba1587e17b4761e7b280d3851)
+        ;
+
+        
+    
+    
+            var poly_line_bc3edcefbd87230f863e3373438f52fe = L.polyline(
+                [[27.8331436, 85.5503312], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_45323f7ae811379dfb4c88486600b216 = L.circleMarker(
+                [27.8314197, 85.5751098],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_6dc569d169e9301b1216f31b8fc06f69 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_22764e91e9811eaa2bf7e61db855ebf8 = $(`<div id="html_22764e91e9811eaa2bf7e61db855ebf8" style="width: 100.0%; height: 100.0%;"><b>Melamchi phc</b><br>Dist: 2.92 km</div>`)[0];
+                popup_6dc569d169e9301b1216f31b8fc06f69.setContent(html_22764e91e9811eaa2bf7e61db855ebf8);
+            
+        
+
+        circle_marker_45323f7ae811379dfb4c88486600b216.bindPopup(popup_6dc569d169e9301b1216f31b8fc06f69)
+        ;
+
+        
+    
+    
+            var poly_line_a8588ce1095fb0b2f51270356c394874 = L.polyline(
+                [[27.8314197, 85.5751098], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_a5026eeae0b3ca4ac45d8747de7bf3a0 = L.circleMarker(
+                [27.831683, 85.5731934],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_f1c72de8360017b1bef3a6552df82e22 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_49bb01a02e8b0c626df43a7ef1e710ab = $(`<div id="html_49bb01a02e8b0c626df43a7ef1e710ab" style="width: 100.0%; height: 100.0%;"><b>Melamchi polyclinic and research center</b><br>Dist: 2.84 km</div>`)[0];
+                popup_f1c72de8360017b1bef3a6552df82e22.setContent(html_49bb01a02e8b0c626df43a7ef1e710ab);
+            
+        
+
+        circle_marker_a5026eeae0b3ca4ac45d8747de7bf3a0.bindPopup(popup_f1c72de8360017b1bef3a6552df82e22)
+        ;
+
+        
+    
+    
+            var poly_line_eaa34277a945927e792fef2d669bf8b8 = L.polyline(
+                [[27.831683, 85.5731934], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_809f01b4fc7094c4bd7d5cde681fcb44 = L.circleMarker(
+                [27.8271086, 85.5736008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_bcd5730eb3eb718a7efee7c51109ba06 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e679376d5dfb0fb4f16d1536b6688347 = $(`<div id="html_e679376d5dfb0fb4f16d1536b6688347" style="width: 100.0%; height: 100.0%;"><b>Melamchi hospital</b><br>Dist: 3.33 km</div>`)[0];
+                popup_bcd5730eb3eb718a7efee7c51109ba06.setContent(html_e679376d5dfb0fb4f16d1536b6688347);
+            
+        
+
+        circle_marker_809f01b4fc7094c4bd7d5cde681fcb44.bindPopup(popup_bcd5730eb3eb718a7efee7c51109ba06)
+        ;
+
+        
+    
+    
+            var poly_line_e85afa956ebe901cd8470f3f2d7ece85 = L.polyline(
+                [[27.8271086, 85.5736008], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_8c0ab2bd9f44ae1aec90a18c2c5a63b4 = L.circleMarker(
+                [27.8309815, 85.5722607],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_a6f8b473ab1acdd2b53ee16b082f4654 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_58bffec2c73b578db0fbdc2685a6353b = $(`<div id="html_58bffec2c73b578db0fbdc2685a6353b" style="width: 100.0%; height: 100.0%;"><b>Jaraayetar Ayurveda Aushadhalaya</b><br>Dist: 2.88 km</div>`)[0];
+                popup_a6f8b473ab1acdd2b53ee16b082f4654.setContent(html_58bffec2c73b578db0fbdc2685a6353b);
+            
+        
+
+        circle_marker_8c0ab2bd9f44ae1aec90a18c2c5a63b4.bindPopup(popup_a6f8b473ab1acdd2b53ee16b082f4654)
+        ;
+
+        
+    
+    
+            var poly_line_7c184124ff981b2df4d5d7c24e63221d = L.polyline(
+                [[27.8309815, 85.5722607], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_147977bf3db6246ab89e0ce006690701 = L.circleMarker(
+                [27.8578766, 85.5267802],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_a00ba0a69a3421ad2fc3ccc3f611896c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8519f8efc4b910dacd7f81d8c77886e8 = $(`<div id="html_8519f8efc4b910dacd7f81d8c77886e8" style="width: 100.0%; height: 100.0%;"><b>Lalamarang swasthe chauki</b><br>Dist: 3.74 km</div>`)[0];
+                popup_a00ba0a69a3421ad2fc3ccc3f611896c.setContent(html_8519f8efc4b910dacd7f81d8c77886e8);
+            
+        
+
+        circle_marker_147977bf3db6246ab89e0ce006690701.bindPopup(popup_a00ba0a69a3421ad2fc3ccc3f611896c)
+        ;
+
+        
+    
+    
+            var poly_line_1d28862dbe60993ebcd15bb0e3f2c415 = L.polyline(
+                [[27.8578766, 85.5267802], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_ef284b02039b43e9d71df05e25bb6ebe = L.circleMarker(
+                [27.8747804, 85.5842859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_a9be6273a71c5e256d32a13b9c03e904 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1e159b690e52ec46081dac0b3dc567f1 = $(`<div id="html_1e159b690e52ec46081dac0b3dc567f1" style="width: 100.0%; height: 100.0%;"><b>Keureni Swasthe Ikai</b><br>Dist: 2.88 km</div>`)[0];
+                popup_a9be6273a71c5e256d32a13b9c03e904.setContent(html_1e159b690e52ec46081dac0b3dc567f1);
+            
+        
+
+        circle_marker_ef284b02039b43e9d71df05e25bb6ebe.bindPopup(popup_a9be6273a71c5e256d32a13b9c03e904)
+        ;
+
+        
+    
+    
+            var poly_line_5767d662302a9fb1a20fe852f0fc3c2c = L.polyline(
+                [[27.8747804, 85.5842859], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_fba5b10ea1b7f529c702bdfd150584e1 = L.circleMarker(
+                [27.870173, 85.5684107],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_eb732a5a768bd1f1b49bb45432e79136 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6117634cbbff41e23e5c98fd4a15244c = $(`<div id="html_6117634cbbff41e23e5c98fd4a15244c" style="width: 100.0%; height: 100.0%;"><b>Dubachaur swasthe chauki</b><br>Dist: 1.67 km</div>`)[0];
+                popup_eb732a5a768bd1f1b49bb45432e79136.setContent(html_6117634cbbff41e23e5c98fd4a15244c);
+            
+        
+
+        circle_marker_fba5b10ea1b7f529c702bdfd150584e1.bindPopup(popup_eb732a5a768bd1f1b49bb45432e79136)
+        ;
+
+        
+    
+    
+            var poly_line_0a6c44f7b041bfe9e129201b53fe96c8 = L.polyline(
+                [[27.870173, 85.5684107], [27.85551710714286, 85.56475796428572]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_75e591027c7abc63f4e62d35bd05225a = L.circleMarker(
+                [27.7208454, 85.7507731],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_7d8b6d5c769be95abee26f63e68398d8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3069f6eca86701cf3d7316f9bd19b354 = $(`<div id="html_3069f6eca86701cf3d7316f9bd19b354" style="width: 100.0%; height: 100.0%;"><b>Urban Health Center Jitpur</b><br>Dist: 5.78 km</div>`)[0];
+                popup_7d8b6d5c769be95abee26f63e68398d8.setContent(html_3069f6eca86701cf3d7316f9bd19b354);
+            
+        
+
+        circle_marker_75e591027c7abc63f4e62d35bd05225a.bindPopup(popup_7d8b6d5c769be95abee26f63e68398d8)
+        ;
+
+        
+    
+    
+            var poly_line_acb63a93dacd6ae2f9d983fe43550d55 = L.polyline(
+                [[27.7208454, 85.7507731], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_b4d85db9e294ff7016adadda52a6a9db = L.circleMarker(
+                [27.7795288, 85.6811707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_68000b1b3cc5be0a84e452f5912dd091 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a9d1998a21412d252d505a96fd7896b5 = $(`<div id="html_a9d1998a21412d252d505a96fd7896b5" style="width: 100.0%; height: 100.0%;"><b>Urban Health Center Pipaldada</b><br>Dist: 4.24 km</div>`)[0];
+                popup_68000b1b3cc5be0a84e452f5912dd091.setContent(html_a9d1998a21412d252d505a96fd7896b5);
+            
+        
+
+        circle_marker_b4d85db9e294ff7016adadda52a6a9db.bindPopup(popup_68000b1b3cc5be0a84e452f5912dd091)
+        ;
+
+        
+    
+    
+            var poly_line_f2634dd5d11e2dab1780e5c048c53bf5 = L.polyline(
+                [[27.7795288, 85.6811707], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_2def320bee7a8248cba9d186c2619b9a = L.circleMarker(
+                [27.778654, 85.7403701],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_70e72eee35ff86d272def88795e142bf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_19c8301093a6e595a7e4ee8bcebeae7b = $(`<div id="html_19c8301093a6e595a7e4ee8bcebeae7b" style="width: 100.0%; height: 100.0%;"><b>Deurali Urban Health Center</b><br>Dist: 2.38 km</div>`)[0];
+                popup_70e72eee35ff86d272def88795e142bf.setContent(html_19c8301093a6e595a7e4ee8bcebeae7b);
+            
+        
+
+        circle_marker_2def320bee7a8248cba9d186c2619b9a.bindPopup(popup_70e72eee35ff86d272def88795e142bf)
+        ;
+
+        
+    
+    
+            var poly_line_a914955fd972e2a8556324405cda797a = L.polyline(
+                [[27.778654, 85.7403701], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_e2465dc6a7bab7d65df93fc696d0f2e6 = L.circleMarker(
+                [27.7746914, 85.7146149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_f8a538632eda4b6c9ee45022a94f56f4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_96722f90ad4c7988b9f8b26f750f7287 = $(`<div id="html_96722f90ad4c7988b9f8b26f750f7287" style="width: 100.0%; height: 100.0%;"><b>Bandevi Polyclinic pvt. Ltd</b><br>Dist: 1.19 km</div>`)[0];
+                popup_f8a538632eda4b6c9ee45022a94f56f4.setContent(html_96722f90ad4c7988b9f8b26f750f7287);
+            
+        
+
+        circle_marker_e2465dc6a7bab7d65df93fc696d0f2e6.bindPopup(popup_f8a538632eda4b6c9ee45022a94f56f4)
+        ;
+
+        
+    
+    
+            var poly_line_bd5828857d7601296a46b0445b0a6e45 = L.polyline(
+                [[27.7746914, 85.7146149], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_644cb08486b7f25e5797d55541bc0614 = L.circleMarker(
+                [27.7749089, 85.7142417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_f92537e0f115255866e5ec5d3b3c6687 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d7595477a55d3456f068de92b1da9b36 = $(`<div id="html_d7595477a55d3456f068de92b1da9b36" style="width: 100.0%; height: 100.0%;"><b>Shree Prayas Pharma</b><br>Dist: 1.23 km</div>`)[0];
+                popup_f92537e0f115255866e5ec5d3b3c6687.setContent(html_d7595477a55d3456f068de92b1da9b36);
+            
+        
+
+        circle_marker_644cb08486b7f25e5797d55541bc0614.bindPopup(popup_f92537e0f115255866e5ec5d3b3c6687)
+        ;
+
+        
+    
+    
+            var poly_line_c29d156fe226ffeb453fd27b82e2ad4e = L.polyline(
+                [[27.7749089, 85.7142417], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_e8c6d7a2806dc0c12c6fceda89dc8c31 = L.circleMarker(
+                [27.7767679, 85.7125197],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_302b5edced9616760e94e4594703c7f9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9352bbcb038477fd0ed10024784d88c3 = $(`<div id="html_9352bbcb038477fd0ed10024784d88c3" style="width: 100.0%; height: 100.0%;"><b>Harisiddhi Medical Hall</b><br>Dist: 1.50 km</div>`)[0];
+                popup_302b5edced9616760e94e4594703c7f9.setContent(html_9352bbcb038477fd0ed10024784d88c3);
+            
+        
+
+        circle_marker_e8c6d7a2806dc0c12c6fceda89dc8c31.bindPopup(popup_302b5edced9616760e94e4594703c7f9)
+        ;
+
+        
+    
+    
+            var poly_line_0f6a49a9af876b4873b3b6e611d35cf7 = L.polyline(
+                [[27.7767679, 85.7125197], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_28582127f6294a643c291fedc4034781 = L.circleMarker(
+                [27.7195235, 85.7303732],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_596475fb4f1b3b2344a6ef3713a647cc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9fada9f75cac612451aef4a3b14719e3 = $(`<div id="html_9fada9f75cac612451aef4a3b14719e3" style="width: 100.0%; height: 100.0%;"><b>Jalkeni Health Post</b><br>Dist: 5.22 km</div>`)[0];
+                popup_596475fb4f1b3b2344a6ef3713a647cc.setContent(html_9fada9f75cac612451aef4a3b14719e3);
+            
+        
+
+        circle_marker_28582127f6294a643c291fedc4034781.bindPopup(popup_596475fb4f1b3b2344a6ef3713a647cc)
+        ;
+
+        
+    
+    
+            var poly_line_3733db9e1ab33af363733b7b576ef8b6 = L.polyline(
+                [[27.7195235, 85.7303732], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_ce3069930e597f99c126e28ee24779fc = L.circleMarker(
+                [27.803109, 85.7426232],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_f1bb128bcd93673f9368254cc2c52981 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c2b13cd5631e69c74478144183bc4874 = $(`<div id="html_c2b13cd5631e69c74478144183bc4874" style="width: 100.0%; height: 100.0%;"><b>Batase Health Post</b><br>Dist: 4.66 km</div>`)[0];
+                popup_f1bb128bcd93673f9368254cc2c52981.setContent(html_c2b13cd5631e69c74478144183bc4874);
+            
+        
+
+        circle_marker_ce3069930e597f99c126e28ee24779fc.bindPopup(popup_f1bb128bcd93673f9368254cc2c52981)
+        ;
+
+        
+    
+    
+            var poly_line_c2aaa25deaed737b44cf6f843042f888 = L.polyline(
+                [[27.803109, 85.7426232], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_9e573cdda7569894f4a1f7df9544ed62 = L.circleMarker(
+                [27.7357969, 85.7098694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_a60db4029dca1b25713893c98c4fd81c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4af0ca6281f7acbfa9b1e5ccf7b67e29 = $(`<div id="html_4af0ca6281f7acbfa9b1e5ccf7b67e29" style="width: 100.0%; height: 100.0%;"><b>Thulosirubari Health Post</b><br>Dist: 3.51 km</div>`)[0];
+                popup_a60db4029dca1b25713893c98c4fd81c.setContent(html_4af0ca6281f7acbfa9b1e5ccf7b67e29);
+            
+        
+
+        circle_marker_9e573cdda7569894f4a1f7df9544ed62.bindPopup(popup_a60db4029dca1b25713893c98c4fd81c)
+        ;
+
+        
+    
+    
+            var poly_line_8c6f768881eae5026324bd23fcb931d1 = L.polyline(
+                [[27.7357969, 85.7098694], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_9c675d3a5c6683d9f1898de69b464c40 = L.circleMarker(
+                [27.7298459, 85.7682212],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_aa3caf5696e2ee513a6eddb9751a2154 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7ae73d9c757aaa74e9fb602dcc47852d = $(`<div id="html_7ae73d9c757aaa74e9fb602dcc47852d" style="width: 100.0%; height: 100.0%;"><b>Kadambas Health Post</b><br>Dist: 6.11 km</div>`)[0];
+                popup_aa3caf5696e2ee513a6eddb9751a2154.setContent(html_7ae73d9c757aaa74e9fb602dcc47852d);
+            
+        
+
+        circle_marker_9c675d3a5c6683d9f1898de69b464c40.bindPopup(popup_aa3caf5696e2ee513a6eddb9751a2154)
+        ;
+
+        
+    
+    
+            var poly_line_10f1e42503e4570c00abb4538d133b71 = L.polyline(
+                [[27.7298459, 85.7682212], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_437634b4a0beb669c0d548868a476465 = L.circleMarker(
+                [27.7605463, 85.7064408],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_a1356d754268da4b7da655e5437e1826 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1a4ab1d72839e9b1df26d1ab4b519f0a = $(`<div id="html_1a4ab1d72839e9b1df26d1ab4b519f0a" style="width: 100.0%; height: 100.0%;"><b>Sanusiruwari Health Post</b><br>Dist: 1.57 km</div>`)[0];
+                popup_a1356d754268da4b7da655e5437e1826.setContent(html_1a4ab1d72839e9b1df26d1ab4b519f0a);
+            
+        
+
+        circle_marker_437634b4a0beb669c0d548868a476465.bindPopup(popup_a1356d754268da4b7da655e5437e1826)
+        ;
+
+        
+    
+    
+            var poly_line_404ba6d1c0071992a7213d9fad5f0a33 = L.polyline(
+                [[27.7605463, 85.7064408], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_98b151404bf83708ed733e01a38a5fa2 = L.circleMarker(
+                [27.7938757, 85.6844739],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_764140ce7f91813411725d075161206f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_819e4b8b9e47312f64c2bfc97df217a3 = $(`<div id="html_819e4b8b9e47312f64c2bfc97df217a3" style="width: 100.0%; height: 100.0%;"><b>Pipaldada Health Post</b><br>Dist: 4.78 km</div>`)[0];
+                popup_764140ce7f91813411725d075161206f.setContent(html_819e4b8b9e47312f64c2bfc97df217a3);
+            
+        
+
+        circle_marker_98b151404bf83708ed733e01a38a5fa2.bindPopup(popup_764140ce7f91813411725d075161206f)
+        ;
+
+        
+    
+    
+            var poly_line_2aee5b87dc089ff1a6282915da1eaac4 = L.polyline(
+                [[27.7938757, 85.6844739], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_19a80d3f61679abc080141babd2b911b = L.circleMarker(
+                [27.7456784, 85.7486018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_053af9fd2930f87210ae3157330452f8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5601e4ff644acd46ec9c1608d0081538 = $(`<div id="html_5601e4ff644acd46ec9c1608d0081538" style="width: 100.0%; height: 100.0%;"><b>Irkhu Health Post</b><br>Dist: 3.51 km</div>`)[0];
+                popup_053af9fd2930f87210ae3157330452f8.setContent(html_5601e4ff644acd46ec9c1608d0081538);
+            
+        
+
+        circle_marker_19a80d3f61679abc080141babd2b911b.bindPopup(popup_053af9fd2930f87210ae3157330452f8)
+        ;
+
+        
+    
+    
+            var poly_line_3dbb6a5d21a6b69703443cc0786621f0 = L.polyline(
+                [[27.7456784, 85.7486018], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_5d1da4e60e8704318b377fe37776c617 = L.circleMarker(
+                [27.7766635, 85.7534157],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_902c134cb3cb97a5752e3e75aa90dfa9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d2f0a6a0343853dd4043953a1a42d0b0 = $(`<div id="html_d2f0a6a0343853dd4043953a1a42d0b0" style="width: 100.0%; height: 100.0%;"><b>Kubuinde Health Post</b><br>Dist: 3.41 km</div>`)[0];
+                popup_902c134cb3cb97a5752e3e75aa90dfa9.setContent(html_d2f0a6a0343853dd4043953a1a42d0b0);
+            
+        
+
+        circle_marker_5d1da4e60e8704318b377fe37776c617.bindPopup(popup_902c134cb3cb97a5752e3e75aa90dfa9)
+        ;
+
+        
+    
+    
+            var poly_line_f21d0b20155358769f9859deda5d6b3d = L.polyline(
+                [[27.7766635, 85.7534157], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_7b3cd933989ff72761dcc51172e952fc = L.circleMarker(
+                [27.8124164, 85.6930486],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_4dd8df73f92f25d2a323b1bf9ef27c1f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_507bdaa470f75c0b865ffa34d2001b83 = $(`<div id="html_507bdaa470f75c0b865ffa34d2001b83" style="width: 100.0%; height: 100.0%;"><b>Syaule Health Post</b><br>Dist: 5.89 km</div>`)[0];
+                popup_4dd8df73f92f25d2a323b1bf9ef27c1f.setContent(html_507bdaa470f75c0b865ffa34d2001b83);
+            
+        
+
+        circle_marker_7b3cd933989ff72761dcc51172e952fc.bindPopup(popup_4dd8df73f92f25d2a323b1bf9ef27c1f)
+        ;
+
+        
+    
+    
+            var poly_line_a2d80af4d3f068b0c69874cd9fd4d220 = L.polyline(
+                [[27.8124164, 85.6930486], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_856c7a366c4a59d1a16c168ecd380049 = L.circleMarker(
+                [27.7804792, 85.7112068],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_54877e2d2513030493443e210562b0c6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7b437d2dba237fa6d9764eae3990de1c = $(`<div id="html_7b437d2dba237fa6d9764eae3990de1c" style="width: 100.0%; height: 100.0%;"><b>Chautara Hospital Sindhupalchok</b><br>Dist: 1.92 km</div>`)[0];
+                popup_54877e2d2513030493443e210562b0c6.setContent(html_7b437d2dba237fa6d9764eae3990de1c);
+            
+        
+
+        circle_marker_856c7a366c4a59d1a16c168ecd380049.bindPopup(popup_54877e2d2513030493443e210562b0c6)
+        ;
+
+        
+    
+    
+            var poly_line_fd021a82697561068a86b4c08a5c03c5 = L.polyline(
+                [[27.7804792, 85.7112068], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_ab594adb060a778b44c71981ee156a3e = L.circleMarker(
+                [27.6980952, 85.727518],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_531791a44c47043f9b2d6b57024eeb6b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_70c7862718bf2224204d05da818728ea = $(`<div id="html_70c7862718bf2224204d05da818728ea" style="width: 100.0%; height: 100.0%;"><b>Community Health Unit Khatrithok</b><br>Dist: 7.55 km</div>`)[0];
+                popup_531791a44c47043f9b2d6b57024eeb6b.setContent(html_70c7862718bf2224204d05da818728ea);
+            
+        
+
+        circle_marker_ab594adb060a778b44c71981ee156a3e.bindPopup(popup_531791a44c47043f9b2d6b57024eeb6b)
+        ;
+
+        
+    
+    
+            var poly_line_0c7a428e07e1e357d7e0a8cbe3591650 = L.polyline(
+                [[27.6980952, 85.727518], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_6f848912d919a065c92c255d878b6afe = L.circleMarker(
+                [27.7175414, 85.6918426],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_371d4c2262495ac69dd5841c6ad56124 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e3a3459cc74d0a5f963051720ff143ac = $(`<div id="html_e3a3459cc74d0a5f963051720ff143ac" style="width: 100.0%; height: 100.0%;"><b>Community Health Unit Daduwa</b><br>Dist: 6.09 km</div>`)[0];
+                popup_371d4c2262495ac69dd5841c6ad56124.setContent(html_e3a3459cc74d0a5f963051720ff143ac);
+            
+        
+
+        circle_marker_6f848912d919a065c92c255d878b6afe.bindPopup(popup_371d4c2262495ac69dd5841c6ad56124)
+        ;
+
+        
+    
+    
+            var poly_line_d740879fe70b8a590541747db6335301 = L.polyline(
+                [[27.7175414, 85.6918426], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_8c4c571fb28bf6ad44f4dd97fce30c50 = L.circleMarker(
+                [27.6970277, 85.7116031],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_1ac2835b4d1f96c6fb45cdb91938d48f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f2b82ef0988fdd3bc4e1e53ee14733d4 = $(`<div id="html_f2b82ef0988fdd3bc4e1e53ee14733d4" style="width: 100.0%; height: 100.0%;"><b>Sangachok Basic Health Service and Delivery Service center.</b><br>Dist: 7.70 km</div>`)[0];
+                popup_1ac2835b4d1f96c6fb45cdb91938d48f.setContent(html_f2b82ef0988fdd3bc4e1e53ee14733d4);
+            
+        
+
+        circle_marker_8c4c571fb28bf6ad44f4dd97fce30c50.bindPopup(popup_1ac2835b4d1f96c6fb45cdb91938d48f)
+        ;
+
+        
+    
+    
+            var poly_line_e4e1d909e8d4baeca3bb42c6953871eb = L.polyline(
+                [[27.6970277, 85.7116031], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_2cfb14efd74501a6384a7fb158133995 = L.circleMarker(
+                [27.7797853, 85.7115045],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_794d168878066865fa1de9400f1b8996 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c0c5d04a857aa6b366fc40042ea705ad = $(`<div id="html_c0c5d04a857aa6b366fc40042ea705ad" style="width: 100.0%; height: 100.0%;"><b>District Community Eye Center</b><br>Dist: 1.84 km</div>`)[0];
+                popup_794d168878066865fa1de9400f1b8996.setContent(html_c0c5d04a857aa6b366fc40042ea705ad);
+            
+        
+
+        circle_marker_2cfb14efd74501a6384a7fb158133995.bindPopup(popup_794d168878066865fa1de9400f1b8996)
+        ;
+
+        
+    
+    
+            var poly_line_09ebd198bb2b69c3f5a227e1552177f8 = L.polyline(
+                [[27.7797853, 85.7115045], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_a369c4fa21efc730a4f5332c0598d9fc = L.circleMarker(
+                [27.7062602, 85.6888469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_f625b30e81a797513c8f4d2e1147286b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4db6e25577d249dea8f777a372a8db77 = $(`<div id="html_4db6e25577d249dea8f777a372a8db77" style="width: 100.0%; height: 100.0%;"><b>Basic Health Care Center Gairitar</b><br>Dist: 7.34 km</div>`)[0];
+                popup_f625b30e81a797513c8f4d2e1147286b.setContent(html_4db6e25577d249dea8f777a372a8db77);
+            
+        
+
+        circle_marker_a369c4fa21efc730a4f5332c0598d9fc.bindPopup(popup_f625b30e81a797513c8f4d2e1147286b)
+        ;
+
+        
+    
+    
+            var poly_line_891d0144ec1635d214f5f62c02b74e13 = L.polyline(
+                [[27.7062602, 85.6888469], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_3619575075817eafdd17044c5596954b = L.circleMarker(
+                [27.8023889, 85.7571467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_3e9bfd4f90888ade0f0b92378ee62c3b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_488b41b24462e0170e44bd8115380bf5 = $(`<div id="html_488b41b24462e0170e44bd8115380bf5" style="width: 100.0%; height: 100.0%;"><b>Batase Basic Health Care Center</b><br>Dist: 5.41 km</div>`)[0];
+                popup_3e9bfd4f90888ade0f0b92378ee62c3b.setContent(html_488b41b24462e0170e44bd8115380bf5);
+            
+        
+
+        circle_marker_3619575075817eafdd17044c5596954b.bindPopup(popup_3e9bfd4f90888ade0f0b92378ee62c3b)
+        ;
+
+        
+    
+    
+            var poly_line_335c00489791bbaefdf136af072ff8d2 = L.polyline(
+                [[27.8023889, 85.7571467], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_a8a92fa39c75782b1d2e1493a0769f5d = L.circleMarker(
+                [27.689774, 85.6893676],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_08b174fcff9fe4bf77519ad53d973e85 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_aa7b726d4cf0b42cdc1333bd42caa524 = $(`<div id="html_aa7b726d4cf0b42cdc1333bd42caa524" style="width: 100.0%; height: 100.0%;"><b>Bhimtar Basic Health Service Centre</b><br>Dist: 9.02 km</div>`)[0];
+                popup_08b174fcff9fe4bf77519ad53d973e85.setContent(html_aa7b726d4cf0b42cdc1333bd42caa524);
+            
+        
+
+        circle_marker_a8a92fa39c75782b1d2e1493a0769f5d.bindPopup(popup_08b174fcff9fe4bf77519ad53d973e85)
+        ;
+
+        
+    
+    
+            var poly_line_db3d3a4afef772da6a4e78f7eccbd0a1 = L.polyline(
+                [[27.689774, 85.6893676], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_12d88a504b9addb3c30e619bc47547c0 = L.circleMarker(
+                [27.753582, 85.7304811],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_e2a5ae8ab4117e25db316102c9d4595f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_724d9ff5901e96467ad46793ba980962 = $(`<div id="html_724d9ff5901e96467ad46793ba980962" style="width: 100.0%; height: 100.0%;"><b>Melchaur Community Health Centre</b><br>Dist: 1.64 km</div>`)[0];
+                popup_e2a5ae8ab4117e25db316102c9d4595f.setContent(html_724d9ff5901e96467ad46793ba980962);
+            
+        
+
+        circle_marker_12d88a504b9addb3c30e619bc47547c0.bindPopup(popup_e2a5ae8ab4117e25db316102c9d4595f)
+        ;
+
+        
+    
+    
+            var poly_line_352966694b53269c575af0b4d2d2a486 = L.polyline(
+                [[27.753582, 85.7304811], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_2e31009cdec3e68c27b828b6b378bbb3 = L.circleMarker(
+                [27.7721384, 85.7186083],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_2af247ee16fc75994d52213f469c4e6c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_056cc9849d247955a2ab54930b82231a = $(`<div id="html_056cc9849d247955a2ab54930b82231a" style="width: 100.0%; height: 100.0%;"><b>Chautara Basic Health Facility Center Ward no. 5</b><br>Dist: 0.76 km</div>`)[0];
+                popup_2af247ee16fc75994d52213f469c4e6c.setContent(html_056cc9849d247955a2ab54930b82231a);
+            
+        
+
+        circle_marker_2e31009cdec3e68c27b828b6b378bbb3.bindPopup(popup_2af247ee16fc75994d52213f469c4e6c)
+        ;
+
+        
+    
+    
+            var poly_line_521ed352444221001e4342e89be0c5fb = L.polyline(
+                [[27.7721384, 85.7186083], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_5f6165e36e021aa34a13127471f20e49 = L.circleMarker(
+                [27.7755843, 85.6964533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_00c957e6ab7030cd774d272b2d2267a7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_107f2ea3b7d1141502fe12a0afc6be60 = $(`<div id="html_107f2ea3b7d1141502fe12a0afc6be60" style="width: 100.0%; height: 100.0%;"><b>Pipaldada Ayurved Aushadhalaya</b><br>Dist: 2.67 km</div>`)[0];
+                popup_00c957e6ab7030cd774d272b2d2267a7.setContent(html_107f2ea3b7d1141502fe12a0afc6be60);
+            
+        
+
+        circle_marker_5f6165e36e021aa34a13127471f20e49.bindPopup(popup_00c957e6ab7030cd774d272b2d2267a7)
+        ;
+
+        
+    
+    
+            var poly_line_3cf86ce931ed17e2a5402c5aa025e9e9 = L.polyline(
+                [[27.7755843, 85.6964533], [27.765707503703705, 85.72119095925926]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+            var circle_marker_e599644c3e189ad190eeb52f53b94234 = L.circleMarker(
+                [27.789962700000004, 85.89832634999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+    
+        var popup_c1427cd914137fae2a94dadcb038e8ff = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0e03308ba13d21f6608fb54a062bf732 = $(`<div id="html_0e03308ba13d21f6608fb54a062bf732" style="width: 100.0%; height: 100.0%;"><b>Keystone Hospital & Research Centre</b><br>Dist: 1.89 km</div>`)[0];
+                popup_c1427cd914137fae2a94dadcb038e8ff.setContent(html_0e03308ba13d21f6608fb54a062bf732);
+            
+        
+
+        circle_marker_e599644c3e189ad190eeb52f53b94234.bindPopup(popup_c1427cd914137fae2a94dadcb038e8ff)
+        ;
+
+        
+    
+    
+            var poly_line_96e897d43f88ca17e5d4059841255127 = L.polyline(
+                [[27.789962700000004, 85.89832634999999], [27.774919833333335, 85.90691239166667]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_48ffc0a8548af023df201f372cd28115);
+        
+</script>
+</html>
