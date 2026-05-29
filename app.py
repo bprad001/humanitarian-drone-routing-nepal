@@ -19,11 +19,11 @@ lat_col = [c for c in df.columns if c.lower() in ['latitude', 'lat', 'y']][0]
 lon_col = [c for c in df.columns if c.lower() in ['longitude', 'lon', 'x']][0]
 
 # 2. Sidebar Inputs
-st.sidebar.header("⚙️ Operational Parameters")
+st.sidebar.header(" Operational Parameters")
 base_range = st.sidebar.slider("Base Flight Range (km)", 40, 150, 80)
 base_speed = st.sidebar.slider("Base Cruise Speed (km/h)", 50, 150, 100)
 
-st.sidebar.header("🌧️ Environmental Factors")
+st.sidebar.header(" Environmental Factors")
 monsoon_penalty = st.sidebar.slider(
     "Monsoon Weather Penalty (%)", 0, 50, 0, 
     help="High winds and heavy rain reduce battery efficiency and speed."
