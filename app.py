@@ -5,7 +5,7 @@ from streamlit_folium import st_folium
 
 st.set_page_config(layout="wide", page_title="Sindhupalchok Drone Network")
 
-st.title("🚁 Sindhupalchok Drone Optimization Dashboard")
+st.title(" Sindhupalchok Drone Optimization Dashboard")
 
 # 1. Load the finalized analytics data
 @st.cache_data
@@ -65,7 +65,7 @@ hub_lon = df.iloc[hub_id][lon_col]
 folium.Marker(
     location=[hub_lat, hub_lon],
     icon=folium.Icon(color="blue", icon="star"),
-    popup="<b>🌟 OPTIMIZED DRONE HUB</b>"
+    popup="<b> OPTIMIZED DRONE HUB</b>"
 ).add_to(m)
 
 # Plot Clinics
@@ -89,10 +89,10 @@ for idx, row in df.iterrows():
 st_folium(m, width=1400, height=500)
 
 # 6. Download Data Button
-st.write("### 📊 Export Active Analytics Data")
+st.write("### Export Active Analytics Data")
 csv = df.to_csv(index=False).encode('utf-8')
 st.download_button(
-    label="📥 Download Results as CSV",
+    label=" Download Results as CSV",
     data=csv,
     file_name='sindhupalchok_dashboard_results.csv',
     mime='text/csv',
