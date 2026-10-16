@@ -1,4 +1,4 @@
-# capstone-project
+# Drone Delivery Network Optimization - Supply Chain using a MILP model
 ---
 
 # Drone Delivery Network Optimization for Sindhupalchok, Nepal
