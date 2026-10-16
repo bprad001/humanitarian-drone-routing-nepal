@@ -34,9 +34,9 @@ To ensure full reproducibility, follow these steps to set up your local environm
 
 Open your terminal and clone this repository to your local machine:
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+bash``
+git clone https://github.com
+cd humanitarian-drone-routing-nepal
 
 ```
 
